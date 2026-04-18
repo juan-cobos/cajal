@@ -1,9 +1,9 @@
 from src.datasets.connectivity import ConnectivityDataset
 from src.datasets.scrna import ScRNADataset
 
-_REGISTRY: dict[str, type] = {
-    ConnectivityDataset.name: ConnectivityDataset,
-    ScRNADataset.name: ScRNADataset,
+_REGISTRY: dict[str, object] = {
+    ConnectivityDataset.name: ConnectivityDataset(),
+    ScRNADataset.name: ScRNADataset(),
 }
 
 
@@ -27,5 +27,5 @@ class DataLoader:
 
     def load(self, name: str | list[str]):
         if isinstance(name, list):
-            return {n: _REGISTRY[n](self.regions).load() for n in name}
-        return _REGISTRY[name](self.regions).load()
+            return {n: _REGISTRY[n].load(self.regions) for n in name}
+        return _REGISTRY[name].load(self.regions)

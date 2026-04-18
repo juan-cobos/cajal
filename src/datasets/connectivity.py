@@ -7,9 +7,6 @@ class ConnectivityDataset:
     name = "connectivity"
     description = "Allen Mouse Brain connectivity experiments and structure unionizes grouped by injection region."
 
-    def __init__(self, regions: list[str]):
-        self.regions = regions
-
-    def load(self) -> pl.DataFrame:
-        experiments = find_experiments(self.regions)
+    def load(self, regions: list[str]) -> pl.DataFrame:
+        experiments = find_experiments(regions)
         return get_structure_unionizes(experiments)
