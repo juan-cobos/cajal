@@ -3,7 +3,8 @@ from pathlib import Path
 
 import requests
 
-_URL = "http://api.brain-map.org/api/v2/structure_graph_download/1.json"
+from src.urls import STRUCTURES as _URL
+
 _PATH = Path(__file__).parent.parent / "data/structures.json"
 
 
@@ -23,6 +24,6 @@ def _load() -> list[dict]:
     return json.loads(_PATH.read_text())
 
 
-structures = _load()
-acronym_to_id: dict[str, int] = {s["acronym"]: s["id"] for s in structures}
-id_to_acronym: dict[int, str] = {s["id"]: s["acronym"] for s in structures}
+STRUCTURES = _load()
+ACRONYM_TO_ID: dict[str, int] = {s["acronym"]: s["id"] for s in STRUCTURES}
+ID_TO_ACRONYM: dict[int, str] = {s["id"]: s["acronym"] for s in STRUCTURES}

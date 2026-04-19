@@ -5,26 +5,26 @@ import anndata as ad
 import polars as pl
 
 from src.datasets.io import EXPR_INDEX, ensure_files
-from src.urls import SCRNA_METADATA
+from src.urls import MERFISH_METADATA
 
-_CACHE_DIR = Path(__file__).parent.parent.parent / "data/scrna"
+_CACHE_DIR = Path(__file__).parent.parent.parent / "data/merfish"
 
 _FILE_COL = "feature_matrix_label"
-_REGION_COL = "region_of_interest_acronym"
+_REGION_COL = "parcellation_substructure"
 
 
 def _load_metadata(regions: list[str]) -> pl.DataFrame:
-    meta_path = _CACHE_DIR / "cell_metadata.csv"
-    asyncio.run(ensure_files([(SCRNA_METADATA, meta_path)]))
+    meta_path = _CACHE_DIR / "cell_metadata_with_parcellation_annotation.csv"
+    asyncio.run(ensure_files([(MERFISH_METADATA, meta_path)]))
     filtered = pl.read_csv(meta_path).filter(pl.col(_REGION_COL).is_in(regions))
     if filtered.is_empty():
         raise ValueError(f"No cells found for regions {regions} in column '{_REGION_COL}'")
     return filtered
 
 
-class ScRNADataset:
-    name = "scrna"
-    description = "Allen Brain Cell Atlas single-cell RNA sequencing data."
+class MerfishDataset:
+    name = "merfish"
+    description = "Allen Brain Cell Atlas MERFISH spatial transcriptomics with x/y/z cell coordinates."
 
     def load(self, regions: list[str]) -> ad.AnnData:
         _CACHE_DIR.mkdir(parents=True, exist_ok=True)
@@ -49,6 +49,6 @@ class ScRNADataset:
 
 
 if __name__ == "__main__":
-    adata = ScRNADataset().load(["MB"])
+    adata = MerfishDataset().load(["VTA"])
     print(adata)
     print(adata.obs.head())

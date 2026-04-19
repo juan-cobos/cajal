@@ -1,9 +1,14 @@
 from src.datasets.connectivity import ConnectivityDataset
+from src.datasets.merfish import MerfishDataset
+from src.datasets.neural_activity import NeuralActivityDataset
 from src.datasets.scrna import ScRNADataset
+from src.datasets.base import Dataset
 
-_REGISTRY: dict[str, object] = {
+_REGISTRY: dict[str, Dataset] = {
     ConnectivityDataset.name: ConnectivityDataset(),
     ScRNADataset.name: ScRNADataset(),
+    MerfishDataset.name: MerfishDataset(),
+    NeuralActivityDataset.name: NeuralActivityDataset(),
 }
 
 
