@@ -1,0 +1,60 @@
+{
+  "hypothesis_id": "H13",
+  "status": "REFUTED",
+  "spearman_rho": 0.0,
+  "spearman_p": 1.0,
+  "pearson_r": 0.27681788301181176,
+  "n_pairs": 5,
+  "l5_gt_l6_gaba_p": 0.03125,
+  "l5_gt_l6_nw_p": 0.96875,
+  "mean_gaba_diff": 0.04024713242308635,
+  "mean_nw_diff": -0.041623050996488484,
+  "region_details": [
+    {
+      "parent": "PL",
+      "l5_gaba": 0.1737,
+      "l6_gaba": 0.1068,
+      "gaba_diff": 0.0669,
+      "l5_nw": 0.106,
+      "l6_nw": 0.1726,
+      "nw_diff": -0.0666
+    },
+    {
+      "parent": "ILA",
+      "l5_gaba": 0.1752,
+      "l6_gaba": 0.1466,
+      "gaba_diff": 0.0286,
+      "l5_nw": 0.1274,
+      "l6_nw": 0.1859,
+      "nw_diff": -0.0585
+    },
+    {
+      "parent": "ORBl",
+      "l5_gaba": 0.1551,
+      "l6_gaba": 0.1184,
+      "gaba_diff": 0.0367,
+      "l5_nw": 0.1613,
+      "l6_nw": 0.202,
+      "nw_diff": -0.0407
+    },
+    {
+      "parent": "ORBm",
+      "l5_gaba": 0.1408,
+      "l6_gaba": 0.1244,
+      "gaba_diff": 0.0163,
+      "l5_nw": 0.1046,
+      "l6_nw": 0.1669,
+      "nw_diff": -0.0623
+    },
+    {
+      "parent": "ORBvl",
+      "l5_gaba": 0.1541,
+      "l6_gaba": 0.1014,
+      "gaba_diff": 0.0527,
+      "l5_nw": 0.1646,
+      "l6_nw": 0.1447,
+      "nw_diff": 0.0199
+    }
+  ],
+  "notes": "rho=0.000 p=1.000; GABA diff mean=0.040; NW diff mean=-0.042; REFUTED"
+}

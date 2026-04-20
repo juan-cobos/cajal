@@ -1,0 +1,93 @@
+{
+  "hypothesis_id": "H14",
+  "status": "CONFIRMED",
+  "wilcoxon_p": 0.00390625,
+  "mean_scrna_entropy": 6.540619652900516,
+  "mean_merfish_entropy": 3.8588314005621416,
+  "mean_diff": 2.6817882523383747,
+  "n_greater_scrna": 8,
+  "n_regions": 8,
+  "region_details": [
+    {
+      "region": "ACAd",
+      "scrna_entropy": 6.477,
+      "merfish_entropy": 3.9342,
+      "scrna_n_cells": 102794,
+      "merfish_n_cells": 25179,
+      "scrna_n_clusters": 406,
+      "merfish_n_clusters": 38,
+      "scrna_roi": "ACA"
+    },
+    {
+      "region": "ACAv",
+      "scrna_entropy": 6.477,
+      "merfish_entropy": 3.9365,
+      "scrna_n_cells": 102794,
+      "merfish_n_cells": 26851,
+      "scrna_n_clusters": 406,
+      "merfish_n_clusters": 46,
+      "scrna_roi": "ACA"
+    },
+    {
+      "region": "FRP",
+      "scrna_entropy": 5.9897,
+      "merfish_entropy": 3.72,
+      "scrna_n_cells": 71399,
+      "merfish_n_cells": 2562,
+      "scrna_n_clusters": 385,
+      "merfish_n_clusters": 30,
+      "scrna_roi": "MO-FRP"
+    },
+    {
+      "region": "ILA",
+      "scrna_entropy": 6.6762,
+      "merfish_entropy": 3.9439,
+      "scrna_n_cells": 106122,
+      "merfish_n_cells": 7018,
+      "scrna_n_clusters": 523,
+      "merfish_n_clusters": 38,
+      "scrna_roi": "PL-ILA-ORB"
+    },
+    {
+      "region": "ORBl",
+      "scrna_entropy": 6.6762,
+      "merfish_entropy": 3.7418,
+      "scrna_n_cells": 106122,
+      "merfish_n_cells": 21088,
+      "scrna_n_clusters": 523,
+      "merfish_n_clusters": 40,
+      "scrna_roi": "PL-ILA-ORB"
+    },
+    {
+      "region": "ORBm",
+      "scrna_entropy": 6.6762,
+      "merfish_entropy": 3.9404,
+      "scrna_n_cells": 106122,
+      "merfish_n_cells": 11577,
+      "scrna_n_clusters": 523,
+      "merfish_n_clusters": 51,
+      "scrna_roi": "PL-ILA-ORB"
+    },
+    {
+      "region": "ORBvl",
+      "scrna_entropy": 6.6762,
+      "merfish_entropy": 3.7443,
+      "scrna_n_cells": 106122,
+      "merfish_n_cells": 14901,
+      "scrna_n_clusters": 523,
+      "merfish_n_clusters": 45,
+      "scrna_roi": "PL-ILA-ORB"
+    },
+    {
+      "region": "PL",
+      "scrna_entropy": 6.6762,
+      "merfish_entropy": 3.9097,
+      "scrna_n_cells": 106122,
+      "merfish_n_cells": 18020,
+      "scrna_n_clusters": 523,
+      "merfish_n_clusters": 37,
+      "scrna_roi": "PL-ILA-ORB"
+    }
+  ],
+  "notes": "scRNA mean=6.541 vs MERFISH mean=3.859, diff=2.682; p=0.0039; CONFIRMED"
+}
