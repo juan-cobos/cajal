@@ -1,0 +1,288 @@
+{
+  "hypothesis_id": "H30",
+  "status": "CONFIRMED",
+  "part_a_common_cause": {
+    "gene_pc2_to_burst_ctrl_conn_layer": {
+      "rho": 0.8153,
+      "p": 0.004052
+    },
+    "gene_pc2_to_conn_ctrl_burst_layer": {
+      "rho": 0.884,
+      "p": 0.000686
+    },
+    "conn_to_burst_ctrl_gene_layer": {
+      "rho": -0.514,
+      "p": 0.128559
+    },
+    "common_cause_supported": true
+  },
+  "part_b_ww_gene": {
+    "n_total_tests": 1056,
+    "n_raw_fdr": 11,
+    "n_partial_fdr": 28,
+    "fdr_partial_sig": [
+      {
+        "key": "Adra1a\u2192burst_all",
+        "rho_partial": -0.9021,
+        "p_corr": 0.031436
+      },
+      {
+        "key": "Adra1a\u2192ww_burst",
+        "rho_partial": -0.8841,
+        "p_corr": 0.04928
+      },
+      {
+        "key": "Calb1\u2192ww_burst_GABA",
+        "rho_partial": -0.8625,
+        "p_corr": 0.049783
+      },
+      {
+        "key": "Calcr\u2192nw_burst",
+        "rho_partial": -0.9219,
+        "p_corr": 0.031436
+      },
+      {
+        "key": "Gad2\u2192ww_burst",
+        "rho_partial": -0.8625,
+        "p_corr": 0.049783
+      },
+      {
+        "key": "Grik1\u2192ww_burst",
+        "rho_partial": -0.8631,
+        "p_corr": 0.049783
+      },
+      {
+        "key": "Grik1\u2192ww_burst_GABA",
+        "rho_partial": -0.8699,
+        "p_corr": 0.049783
+      },
+      {
+        "key": "Grin2c\u2192burst_all",
+        "rho_partial": 0.9021,
+        "p_corr": 0.031436
+      },
+      {
+        "key": "Grin2c\u2192ww_burst",
+        "rho_partial": 0.9382,
+        "p_corr": 0.031436
+      },
+      {
+        "key": "Grin2c\u2192ww_burst_Glut",
+        "rho_partial": 0.8835,
+        "p_corr": 0.04928
+      },
+      {
+        "key": "Grm1\u2192burst_all",
+        "rho_partial": -0.863,
+        "p_corr": 0.049783
+      },
+      {
+        "key": "Grm3\u2192ww_M",
+        "rho_partial": 0.9,
+        "p_corr": 0.031436
+      },
+      {
+        "key": "Kcnab3\u2192ww_burst_Glut",
+        "rho_partial": 0.863,
+        "p_corr": 0.049783
+      },
+      {
+        "key": "Kcnk9\u2192nw_frac",
+        "rho_partial": -0.9021,
+        "p_corr": 0.031436
+      },
+      {
+        "key": "Kcnmb2\u2192ww_burst",
+        "rho_partial": -0.8805,
+        "p_corr": 0.049783
+      },
+      {
+        "key": "Mcm6\u2192burst_all",
+        "rho_partial": -0.9333,
+        "p_corr": 0.031436
+      },
+      {
+        "key": "Mcm6\u2192ww_burst",
+        "rho_partial": -0.9073,
+        "p_corr": 0.031436
+      },
+      {
+        "key": "Mcm6\u2192ww_burst_Glut",
+        "rho_partial": -0.9073,
+        "p_corr": 0.031436
+      },
+      {
+        "key": "Mcm6\u2192ww_rate_GABA",
+        "rho_partial": -0.8721,
+        "p_corr": 0.049783
+      },
+      {
+        "key": "Nfix\u2192ww_M",
+        "rho_partial": 0.9,
+        "p_corr": 0.031436
+      },
+      {
+        "key": "Nos1\u2192burst_all",
+        "rho_partial": -0.875,
+        "p_corr": 0.049783
+      },
+      {
+        "key": "Nr2f2\u2192ww_rate_GABA",
+        "rho_partial": -0.9293,
+        "p_corr": 0.031436
+      },
+      {
+        "key": "Pcp4l1\u2192ww_burst_Glut",
+        "rho_partial": 0.8757,
+        "p_corr": 0.049783
+      },
+      {
+        "key": "Penk\u2192ww_burst_GABA",
+        "rho_partial": -0.875,
+        "p_corr": 0.049783
+      },
+      {
+        "key": "Piezo2\u2192burst_all",
+        "rho_partial": -0.9159,
+        "p_corr": 0.031436
+      },
+      {
+        "key": "Piezo2\u2192ww_burst",
+        "rho_partial": -0.9035,
+        "p_corr": 0.031436
+      },
+      {
+        "key": "Pvalb\u2192burst_all",
+        "rho_partial": 0.863,
+        "p_corr": 0.049783
+      },
+      {
+        "key": "Pvalb\u2192ww_burst_Glut",
+        "rho_partial": 0.8664,
+        "p_corr": 0.049783
+      }
+    ],
+    "fdr_raw_sig": [
+      {
+        "key": "Calcr\u2192nw_burst",
+        "rho_raw": -0.9636,
+        "p_corr": 0.002464
+      },
+      {
+        "key": "Grm3\u2192ww_M",
+        "rho_raw": 0.9758,
+        "p_corr": 0.000528
+      },
+      {
+        "key": "Htr7\u2192ww_M",
+        "rho_raw": 0.9152,
+        "p_corr": 0.026928
+      },
+      {
+        "key": "Mcm6\u2192burst_all",
+        "rho_raw": -0.9273,
+        "p_corr": 0.023654
+      },
+      {
+        "key": "Mcm6\u2192ww_burst",
+        "rho_raw": -0.903,
+        "p_corr": 0.033024
+      },
+      {
+        "key": "Mcm6\u2192ww_burst_Glut",
+        "rho_raw": -0.903,
+        "p_corr": 0.033024
+      },
+      {
+        "key": "Nfix\u2192ww_M",
+        "rho_raw": 0.9758,
+        "p_corr": 0.000528
+      },
+      {
+        "key": "Nr2f2\u2192ww_rate_GABA",
+        "rho_raw": -0.9273,
+        "p_corr": 0.023654
+      },
+      {
+        "key": "Piezo2\u2192burst_all",
+        "rho_raw": -0.9152,
+        "p_corr": 0.026928
+      },
+      {
+        "key": "Piezo2\u2192ww_burst",
+        "rho_raw": -0.903,
+        "p_corr": 0.033024
+      },
+      {
+        "key": "Pou3f1\u2192ww_M",
+        "rho_raw": -0.9152,
+        "p_corr": 0.026928
+      }
+    ],
+    "ww_predictability": {
+      "ww_rate": {
+        "mean_abs_rho": 0.3571,
+        "max_abs_rho": 0.8382
+      },
+      "rate_all": {
+        "mean_abs_rho": 0.3881,
+        "max_abs_rho": 0.8375
+      },
+      "ww_burst": {
+        "mean_abs_rho": 0.5051,
+        "max_abs_rho": 0.9382
+      },
+      "burst_all": {
+        "mean_abs_rho": 0.5159,
+        "max_abs_rho": 0.9333
+      },
+      "ww_M": {
+        "mean_abs_rho": 0.2816,
+        "max_abs_rho": 0.9
+      },
+      "nw_rate": {
+        "mean_abs_rho": 0.2364,
+        "max_abs_rho": 0.7475
+      },
+      "nw_burst": {
+        "mean_abs_rho": 0.3499,
+        "max_abs_rho": 0.9219
+      }
+    }
+  },
+  "gene_pc2_to_ww": {
+    "burst_all": {
+      "rho": 0.903,
+      "rho_partial": 0.9
+    },
+    "rate_all": {
+      "rho": 0.5879,
+      "rho_partial": 0.575
+    },
+    "nw_frac": {
+      "rho": 0.0182,
+      "rho_partial": 0.2165
+    },
+    "ww_rate": {
+      "rho": 0.503,
+      "rho_partial": 0.4951
+    },
+    "ww_burst": {
+      "rho": 0.8788,
+      "rho_partial": 0.875
+    },
+    "ww_M": {
+      "rho": -0.103,
+      "rho_partial": 0.1
+    },
+    "nw_rate": {
+      "rho": 0.0424,
+      "rho_partial": 0.0
+    },
+    "nw_burst": {
+      "rho": 0.5394,
+      "rho_partial": 0.6134
+    }
+  },
+  "notes": "Common cause: True; WW gene FDR: 28/1056 partial; CONFIRMED"
+}
