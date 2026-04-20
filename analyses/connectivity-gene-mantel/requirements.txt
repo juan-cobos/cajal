@@ -1,0 +1,5 @@
+anndata
+matplotlib
+numpy
+polars
+scipy

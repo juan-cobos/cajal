@@ -1,0 +1,50 @@
+{
+  "hypothesis_id": "H28",
+  "status": "CONFIRMED",
+  "n_regions": 10,
+  "n_conn_targets_all": 840,
+  "n_conn_targets_strong": 93,
+  "n_genes": 88,
+  "mantel_all": {
+    "r": 0.4451,
+    "p": 0.0024
+  },
+  "mantel_filtered": {
+    "r": 0.4012,
+    "p": 0.007199
+  },
+  "mantel_strong": {
+    "r": 0.3081,
+    "p": 0.041596
+  },
+  "mantel_l5": {
+    "r": 0.6054,
+    "p": 0.059394
+  },
+  "mantel_l6": {
+    "r": 0.6729,
+    "p": 0.031297
+  },
+  "partial_mantel": {
+    "r": 0.5544,
+    "p_pearson": 7.8e-05,
+    "p_perm": 0.0003
+  },
+  "layer_pair_distance": {
+    "r": -0.3361,
+    "p": 0.580208
+  },
+  "within_vs_cross_layer": {
+    "gene_dist": {
+      "within_mean": 0.0356,
+      "cross_mean": 0.0791,
+      "p": 0.0
+    },
+    "conn_dist": {
+      "within_mean": 0.3686,
+      "cross_mean": 0.3078,
+      "p": 0.8042
+    }
+  },
+  "notes": "Mantel (strong targets) r=+0.3081 p=0.0416; partial r=+0.5544 p=0.0003; CONFIRMED"
+}
