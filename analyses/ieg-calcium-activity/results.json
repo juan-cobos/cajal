@@ -1,0 +1,205 @@
+{
+  "hypothesis_id": "H24",
+  "status": "CONFIRMED",
+  "n_genes_tested": 88,
+  "n_tests": 440,
+  "n_fdr_sig": 11,
+  "gene_groups": {
+    "IEG_adjacent": 15,
+    "calcium": 14,
+    "neurotransmitter_signaling": 31,
+    "ion_channels": 13,
+    "TF_identity": 15
+  },
+  "top_unadjusted": [
+    {
+      "gene": "Mcm6",
+      "prop": "burst_mean",
+      "rho": -0.9273,
+      "p": 0.000112
+    },
+    {
+      "gene": "St18",
+      "prop": "nw_frac",
+      "rho": 0.9273,
+      "p": 0.000112
+    },
+    {
+      "gene": "Mcm6",
+      "prop": "burst_mean_Glut",
+      "rho": -0.9273,
+      "p": 0.000112
+    },
+    {
+      "gene": "Piezo2",
+      "prop": "burst_mean",
+      "rho": -0.9152,
+      "p": 0.000204
+    },
+    {
+      "gene": "Kcnab3",
+      "prop": "burst_mean_Glut",
+      "rho": 0.8909,
+      "p": 0.000542
+    },
+    {
+      "gene": "Pvalb",
+      "prop": "burst_mean_Glut",
+      "rho": 0.8909,
+      "p": 0.000542
+    },
+    {
+      "gene": "Nos1",
+      "prop": "burst_mean",
+      "rho": -0.8788,
+      "p": 0.000814
+    },
+    {
+      "gene": "Grm1",
+      "prop": "burst_mean",
+      "rho": -0.8667,
+      "p": 0.001174
+    },
+    {
+      "gene": "Pvalb",
+      "prop": "burst_mean",
+      "rho": 0.8667,
+      "p": 0.001174
+    },
+    {
+      "gene": "Gad2",
+      "prop": "burst_mean_GABA",
+      "rho": -0.8667,
+      "p": 0.001174
+    },
+    {
+      "gene": "Scn4b",
+      "prop": "burst_mean_Glut",
+      "rho": 0.8667,
+      "p": 0.001174
+    },
+    {
+      "gene": "Grm1",
+      "prop": "burst_mean_Glut",
+      "rho": -0.8545,
+      "p": 0.001637
+    },
+    {
+      "gene": "Gad2",
+      "prop": "burst_mean_Glut",
+      "rho": -0.8424,
+      "p": 0.00222
+    },
+    {
+      "gene": "Kcnmb2",
+      "prop": "burst_mean_GABA",
+      "rho": -0.8424,
+      "p": 0.00222
+    },
+    {
+      "gene": "Calb1",
+      "prop": "burst_mean_GABA",
+      "rho": -0.8303,
+      "p": 0.00294
+    },
+    {
+      "gene": "Cnr1",
+      "prop": "burst_mean_GABA",
+      "rho": -0.8303,
+      "p": 0.00294
+    },
+    {
+      "gene": "Grin2c",
+      "prop": "burst_mean_Glut",
+      "rho": 0.8303,
+      "p": 0.00294
+    },
+    {
+      "gene": "Drd2",
+      "prop": "burst_mean",
+      "rho": -0.8182,
+      "p": 0.003815
+    },
+    {
+      "gene": "Kcnab3",
+      "prop": "burst_mean",
+      "rho": 0.8182,
+      "p": 0.003815
+    },
+    {
+      "gene": "Scn4b",
+      "prop": "burst_mean",
+      "rho": 0.8182,
+      "p": 0.003815
+    }
+  ],
+  "fdr_sig_list": [
+    {
+      "gene": "Grm1",
+      "prop": "burst_mean",
+      "rho": -0.8667,
+      "p_corr": 0.046942
+    },
+    {
+      "gene": "Mcm6",
+      "prop": "burst_mean",
+      "rho": -0.9273,
+      "p_corr": 0.016432
+    },
+    {
+      "gene": "Nos1",
+      "prop": "burst_mean",
+      "rho": -0.8788,
+      "p_corr": 0.046942
+    },
+    {
+      "gene": "Piezo2",
+      "prop": "burst_mean",
+      "rho": -0.9152,
+      "p_corr": 0.022492
+    },
+    {
+      "gene": "Pvalb",
+      "prop": "burst_mean",
+      "rho": 0.8667,
+      "p_corr": 0.046942
+    },
+    {
+      "gene": "St18",
+      "prop": "nw_frac",
+      "rho": 0.9273,
+      "p_corr": 0.016432
+    },
+    {
+      "gene": "Gad2",
+      "prop": "burst_mean_GABA",
+      "rho": -0.8667,
+      "p_corr": 0.046942
+    },
+    {
+      "gene": "Kcnab3",
+      "prop": "burst_mean_Glut",
+      "rho": 0.8909,
+      "p_corr": 0.039757
+    },
+    {
+      "gene": "Mcm6",
+      "prop": "burst_mean_Glut",
+      "rho": -0.9273,
+      "p_corr": 0.016432
+    },
+    {
+      "gene": "Pvalb",
+      "prop": "burst_mean_Glut",
+      "rho": 0.8909,
+      "p_corr": 0.039757
+    },
+    {
+      "gene": "Scn4b",
+      "prop": "burst_mean_Glut",
+      "rho": 0.8667,
+      "p_corr": 0.046942
+    }
+  ],
+  "notes": "11/440 FDR-sig; CONFIRMED"
+}
