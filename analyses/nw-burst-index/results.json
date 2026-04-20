@@ -1,0 +1,16 @@
+{
+  "hypothesis_id": "H06",
+  "status": "CONFIRMED",
+  "statistic": 152.0,
+  "p_value": 1.52587890625e-05,
+  "effect_size": 0.06798481803507817,
+  "n_cells": 8781,
+  "n_nw": 1419,
+  "n_ww": 7362,
+  "n_regions": 17,
+  "nw_mean_burst": 0.010460449693017746,
+  "ww_mean_burst": -0.057524368342060414,
+  "cell_level_p": 3.769845762701816e-91,
+  "permutation_p": 0.0003,
+  "notes": "NW B_mean (0.0105) > WW B_mean (-0.0575), p_paired=1.53e-05"
+}
