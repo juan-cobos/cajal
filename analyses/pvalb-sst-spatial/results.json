@@ -1,0 +1,90 @@
+{
+  "hypothesis_id": "H12",
+  "status": "REFUTED",
+  "pvalb_mean_enrichment": 0.9827435941127933,
+  "sst_mean_enrichment": 1.0186793946869999,
+  "vip_mean_enrichment": 1.0115725968487206,
+  "pvalb_vs_sst_p": 0.1402670478850842,
+  "pvalb_vs_vip_p": 3.0586333388742506e-20,
+  "kruskal_p": 8.614727442160523e-17,
+  "permutation_p": 0.7521,
+  "n_pvalb": 1769,
+  "n_sst": 1300,
+  "n_vip": 545,
+  "n_regions": 8,
+  "region_details": [
+    {
+      "region": "ORBl5",
+      "pvalb_enr": 0.9609885146470512,
+      "sst_enr": 1.033206030150754,
+      "vip_enr": 1.7313628899835796,
+      "n_pvalb": 288,
+      "n_sst": 200,
+      "n_vip": 29
+    },
+    {
+      "region": "ORBl6a",
+      "pvalb_enr": 0.9955550859397012,
+      "sst_enr": 0.7875490000664406,
+      "vip_enr": 0.43295346628679965,
+      "n_pvalb": 169,
+      "n_sst": 174,
+      "n_vip": 27
+    },
+    {
+      "region": "ORBvl5",
+      "pvalb_enr": 1.0126310543767851,
+      "sst_enr": 0.9295589615264309,
+      "vip_enr": 0.0,
+      "n_pvalb": 187,
+      "n_sst": 139,
+      "n_vip": 21
+    },
+    {
+      "region": "PL5",
+      "pvalb_enr": 1.0000828678112175,
+      "sst_enr": 1.135443966204368,
+      "vip_enr": 4.0747368421052625,
+      "n_pvalb": 262,
+      "n_sst": 205,
+      "n_vip": 20
+    },
+    {
+      "region": "PL2/3",
+      "pvalb_enr": 0.9686041083099907,
+      "sst_enr": 1.2272892441860466,
+      "vip_enr": 1.0758082497212933,
+      "n_pvalb": 120,
+      "n_sst": 129,
+      "n_vip": 92
+    },
+    {
+      "region": "ORBl2/3",
+      "pvalb_enr": 0.9332872092017642,
+      "sst_enr": 1.3181363067470702,
+      "vip_enr": 1.1813895781637715,
+      "n_pvalb": 373,
+      "n_sst": 188,
+      "n_vip": 156
+    },
+    {
+      "region": "ORBm2/3",
+      "pvalb_enr": 0.6589335404128649,
+      "sst_enr": 0.9452109704641349,
+      "vip_enr": 0.6183988957902002,
+      "n_pvalb": 102,
+      "n_sst": 80,
+      "n_vip": 70
+    },
+    {
+      "region": "ORBvl2/3",
+      "pvalb_enr": 1.1586431140179254,
+      "sst_enr": 0.7399294947121035,
+      "vip_enr": 0.6258000397535282,
+      "n_pvalb": 268,
+      "n_sst": 185,
+      "n_vip": 130
+    }
+  ],
+  "notes": "Pvalb=0.983 > Sst=1.019 > Vip=1.012; pv>ss p=1.40e-01; REFUTED"
+}

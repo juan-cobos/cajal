@@ -1,0 +1,75 @@
+{
+  "hypothesis_id": "H11",
+  "status": "REFUTED",
+  "spearman_rho_md_gaba": -0.11515151515151514,
+  "spearman_p_md_gaba": 0.7514196523258485,
+  "permutation_p": 0.639,
+  "spearman_rho_md_pvalb": -0.13939393939393938,
+  "spearman_p_md_pvalb": 0.7009318849100584,
+  "spearman_rho_re_gaba": 0.12727272727272726,
+  "spearman_p_re_gaba": 0.7260570147627894,
+  "n_regions": 10,
+  "region_details": [
+    {
+      "region": "ILA5",
+      "md_npv": 0.1678,
+      "gaba_fraction": 0.1752,
+      "pvalb_fraction": 0.08647
+    },
+    {
+      "region": "ILA6a",
+      "md_npv": 0.1932,
+      "gaba_fraction": 0.1466,
+      "pvalb_fraction": 0.0638
+    },
+    {
+      "region": "ORBl5",
+      "md_npv": 0.1806,
+      "gaba_fraction": 0.1551,
+      "pvalb_fraction": 0.07978
+    },
+    {
+      "region": "ORBl6a",
+      "md_npv": 0.2792,
+      "gaba_fraction": 0.1184,
+      "pvalb_fraction": 0.04979
+    },
+    {
+      "region": "ORBm5",
+      "md_npv": 0.3493,
+      "gaba_fraction": 0.1408,
+      "pvalb_fraction": 0.07201
+    },
+    {
+      "region": "ORBm6a",
+      "md_npv": 0.6302,
+      "gaba_fraction": 0.1244,
+      "pvalb_fraction": 0.05298
+    },
+    {
+      "region": "ORBvl5",
+      "md_npv": 0.0915,
+      "gaba_fraction": 0.1541,
+      "pvalb_fraction": 0.07788
+    },
+    {
+      "region": "ORBvl6a",
+      "md_npv": 0.1231,
+      "gaba_fraction": 0.1014,
+      "pvalb_fraction": 0.0425
+    },
+    {
+      "region": "PL5",
+      "md_npv": 0.1236,
+      "gaba_fraction": 0.1737,
+      "pvalb_fraction": 0.09066
+    },
+    {
+      "region": "PL6a",
+      "md_npv": 0.1586,
+      "gaba_fraction": 0.1068,
+      "pvalb_fraction": 0.0395
+    }
+  ],
+  "notes": "MD\u2192GABA: rho=-0.115 p=0.751; MD\u2192Pvalb: rho=-0.139 p=0.701; REFUTED"
+}
