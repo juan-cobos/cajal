@@ -1,0 +1,82 @@
+{
+  "hypothesis_id": "H18",
+  "status": "REFUTED",
+  "spearman_rho": -0.5604395604395604,
+  "spearman_p": 0.0371044770040744,
+  "pearson_r": -0.5299161490093764,
+  "permutation_p": 0.9802,
+  "n_regions": 14,
+  "region_details": [
+    {
+      "region": "ILA5",
+      "pvalb_sst_ratio": 1.1616,
+      "nw_fraction": 0.1274
+    },
+    {
+      "region": "ILA6a",
+      "pvalb_sst_ratio": 1.1304,
+      "nw_fraction": 0.1859
+    },
+    {
+      "region": "ORBl2/3",
+      "pvalb_sst_ratio": 1.984,
+      "nw_fraction": 0.1205
+    },
+    {
+      "region": "ORBl5",
+      "pvalb_sst_ratio": 1.44,
+      "nw_fraction": 0.1613
+    },
+    {
+      "region": "ORBl6a",
+      "pvalb_sst_ratio": 0.9713,
+      "nw_fraction": 0.202
+    },
+    {
+      "region": "ORBm2/3",
+      "pvalb_sst_ratio": 1.275,
+      "nw_fraction": 0.1224
+    },
+    {
+      "region": "ORBm5",
+      "pvalb_sst_ratio": 1.375,
+      "nw_fraction": 0.1046
+    },
+    {
+      "region": "ORBm6a",
+      "pvalb_sst_ratio": 0.9441,
+      "nw_fraction": 0.1669
+    },
+    {
+      "region": "ORBvl2/3",
+      "pvalb_sst_ratio": 1.4486,
+      "nw_fraction": 0.1255
+    },
+    {
+      "region": "ORBvl5",
+      "pvalb_sst_ratio": 1.3453,
+      "nw_fraction": 0.1646
+    },
+    {
+      "region": "ORBvl6a",
+      "pvalb_sst_ratio": 0.9121,
+      "nw_fraction": 0.1447
+    },
+    {
+      "region": "PL2/3",
+      "pvalb_sst_ratio": 0.9302,
+      "nw_fraction": 0.1543
+    },
+    {
+      "region": "PL5",
+      "pvalb_sst_ratio": 1.278,
+      "nw_fraction": 0.106
+    },
+    {
+      "region": "PL6a",
+      "pvalb_sst_ratio": 0.749,
+      "nw_fraction": 0.1726
+    }
+  ],
+  "notes": "rho=-0.560, p=0.0371; REFUTED"
+}

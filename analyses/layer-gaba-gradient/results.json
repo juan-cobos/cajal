@@ -1,0 +1,40 @@
+{
+  "hypothesis_id": "H17",
+  "status": "CONFIRMED",
+  "friedman_p": 0.03877420783172202,
+  "l5_gt_l23_p": 0.0625,
+  "l5_gt_l6_p": 0.0625,
+  "n_inverted_u": 4,
+  "n_parents": 4,
+  "permutation_p": 0.0053,
+  "mean_l23_gaba": 0.1071723489176825,
+  "mean_l5_gaba": 0.1559205993378787,
+  "mean_l6_gaba": 0.11275223457243236,
+  "layer_details": [
+    {
+      "parent": "PL",
+      "l23": 0.1044,
+      "l5": 0.1737,
+      "l6": 0.1068
+    },
+    {
+      "parent": "ORBl",
+      "l23": 0.1168,
+      "l5": 0.1551,
+      "l6": 0.1184
+    },
+    {
+      "parent": "ORBm",
+      "l23": 0.096,
+      "l5": 0.1408,
+      "l6": 0.1244
+    },
+    {
+      "parent": "ORBvl",
+      "l23": 0.1115,
+      "l5": 0.1541,
+      "l6": 0.1014
+    }
+  ],
+  "notes": "L2/3=0.107 < L5=0.156 > L6=0.113; Friedman p=0.0388; 4/4 inverted-U; CONFIRMED"
+}
