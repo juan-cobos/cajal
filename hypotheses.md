@@ -1,3 +1,4 @@
 | ID | Hypothesis | Modalities | Datasets | Branch | Analyses | Status | Key result | Notes / refs |
 |----|-----------|------------|----------|--------|----------|--------|------------|--------------|
 | H01 | PFC neurons with the same electrophysiological subtype (wide-width vs narrow-width) are spatially clustered closer together than neurons with different subtypes within the same cortical region | electrophysiology, spatial-transcriptomics | neural_activity | pfc-electro-spatial | Mann-Whitney U, permutation | CONFIRMED | p < 0.001, effect size = 15.2 μm (within < between) | — |
+| H02 | PFC neurons with the same transcriptomic class (e.g., glutamatergic vs GABAergic) show similar electrophysiological subtype distributions within the same cortical region | transcriptomics, electrophysiology | neural_activity, merfish | transcr-electro-pfc | Pearson correlation, permutation | REFUTED | r = 0.329, p = 0.25 (n.s.) | — |
