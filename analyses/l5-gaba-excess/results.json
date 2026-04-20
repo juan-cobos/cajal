@@ -1,0 +1,44 @@
+{
+  "hypothesis_id": "H15",
+  "status": "CONFIRMED",
+  "wilcoxon_p": 0.03125,
+  "permutation_p": 0.0316,
+  "mean_l5_gaba": 0.15977407345526534,
+  "mean_l6_gaba": 0.11952694103217901,
+  "mean_diff": 0.04024713242308635,
+  "n_pairs": 5,
+  "pairs": [
+    {
+      "parent": "PL",
+      "l5_gaba": 0.1737,
+      "l6_gaba": 0.1068,
+      "diff": 0.0669
+    },
+    {
+      "parent": "ILA",
+      "l5_gaba": 0.1752,
+      "l6_gaba": 0.1466,
+      "diff": 0.0286
+    },
+    {
+      "parent": "ORBl",
+      "l5_gaba": 0.1551,
+      "l6_gaba": 0.1184,
+      "diff": 0.0367
+    },
+    {
+      "parent": "ORBm",
+      "l5_gaba": 0.1408,
+      "l6_gaba": 0.1244,
+      "diff": 0.0163
+    },
+    {
+      "parent": "ORBvl",
+      "l5_gaba": 0.1541,
+      "l6_gaba": 0.1014,
+      "diff": 0.0527
+    }
+  ],
+  "l23_mean_gaba": 0.1071723489176825,
+  "notes": "L5 GABA=0.160 > L6=0.120, p=0.0312; CONFIRMED"
+}
