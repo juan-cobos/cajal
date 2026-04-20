@@ -1,0 +1,12 @@
+{
+  "hypothesis_id": "H03",
+  "status": "REFUTED",
+  "statistic": 0.058100461400819814,
+  "p_value": 0.0876,
+  "effect_size": 0.058100461400819814,
+  "n_cells": 10063,
+  "superficial_diff": 0.26864982377110214,
+  "deep_diff": 0.32675028517192195,
+  "interaction": 0.058100461400819814,
+  "notes": "Deep nw-ww diff (0.327) > Superficial (0.269); interaction p=0.0876"
+}
