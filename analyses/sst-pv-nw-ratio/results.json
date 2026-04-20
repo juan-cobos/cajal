@@ -1,0 +1,15 @@
+{
+  "hypothesis_id": "H05",
+  "status": "REFUTED",
+  "statistic": 0.5200025324513132,
+  "p_value": 0.06852077493048375,
+  "effect_size": 0.5200025324513132,
+  "n_cells": 67939,
+  "n_regions": 13,
+  "pearson_r": 0.5200025324513132,
+  "pearson_p": 0.06852077493048375,
+  "spearman_rho": 0.4725274725274725,
+  "spearman_p": 0.10298105029992857,
+  "permutation_p": 0.0672,
+  "notes": "Pearson r=0.520, p=0.0685; Spearman rho=0.473, p=0.1030"
+}
