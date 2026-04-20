@@ -1,0 +1,134 @@
+{
+  "hypothesis_id": "H23",
+  "status": "CONFIRMED",
+  "n_genes_tested": 38,
+  "n_tests_l5": 190,
+  "n_tests_all": 114,
+  "n_fdr_sig_l5": 30,
+  "n_fdr_sig_all": 3,
+  "top_l5_unadjusted": [
+    {
+      "gene": "Gad2",
+      "prop": "rate_mean",
+      "rho": -1.0,
+      "p": 0.0
+    },
+    {
+      "gene": "Gad2",
+      "prop": "burst_mean",
+      "rho": -1.0,
+      "p": 0.0
+    },
+    {
+      "gene": "Gad2",
+      "prop": "ww_rate",
+      "rho": -1.0,
+      "p": 0.0
+    },
+    {
+      "gene": "Gad2",
+      "prop": "ww_burst",
+      "rho": -1.0,
+      "p": 0.0
+    },
+    {
+      "gene": "Grik3",
+      "prop": "nw_frac",
+      "rho": -1.0,
+      "p": 0.0
+    },
+    {
+      "gene": "Grm1",
+      "prop": "rate_mean",
+      "rho": -1.0,
+      "p": 0.0
+    },
+    {
+      "gene": "Grm1",
+      "prop": "burst_mean",
+      "rho": -1.0,
+      "p": 0.0
+    },
+    {
+      "gene": "Grm1",
+      "prop": "ww_rate",
+      "rho": -1.0,
+      "p": 0.0
+    },
+    {
+      "gene": "Grm1",
+      "prop": "ww_burst",
+      "rho": -1.0,
+      "p": 0.0
+    },
+    {
+      "gene": "Scn4b",
+      "prop": "rate_mean",
+      "rho": 1.0,
+      "p": 0.0
+    }
+  ],
+  "top_all_unadjusted": [
+    {
+      "gene": "Nos1",
+      "prop": "burst_mean",
+      "rho": -0.8788,
+      "p": 0.0008
+    },
+    {
+      "gene": "Grm1",
+      "prop": "burst_mean",
+      "rho": -0.8667,
+      "p": 0.0012
+    },
+    {
+      "gene": "Pvalb",
+      "prop": "burst_mean",
+      "rho": 0.8667,
+      "p": 0.0012
+    },
+    {
+      "gene": "Scn4b",
+      "prop": "burst_mean",
+      "rho": 0.8182,
+      "p": 0.0038
+    },
+    {
+      "gene": "Drd2",
+      "prop": "burst_mean",
+      "rho": -0.8182,
+      "p": 0.0038
+    },
+    {
+      "gene": "Htr2a",
+      "prop": "burst_mean",
+      "rho": 0.7939,
+      "p": 0.0061
+    },
+    {
+      "gene": "Kcns3",
+      "prop": "nw_frac",
+      "rho": -0.7697,
+      "p": 0.0092
+    },
+    {
+      "gene": "Drd1",
+      "prop": "burst_mean",
+      "rho": -0.7697,
+      "p": 0.0092
+    },
+    {
+      "gene": "Gad2",
+      "prop": "burst_mean",
+      "rho": -0.7576,
+      "p": 0.0111
+    },
+    {
+      "gene": "Kcnip1",
+      "prop": "burst_mean",
+      "rho": -0.7576,
+      "p": 0.0111
+    }
+  ],
+  "notes": "L5 FDR-sig: 30; All FDR-sig: 3; CONFIRMED"
+}
