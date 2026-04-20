@@ -1,0 +1,17 @@
+{
+  "hypothesis_id": "H20",
+  "status": "REFUTED",
+  "m_biased_gaba": 12,
+  "m_biased_glut": 24,
+  "f_biased_gaba": 16,
+  "f_biased_glut": 38,
+  "m_biased_gaba_frac": 0.3333333333333333,
+  "f_biased_gaba_frac": 0.2962962962962963,
+  "fisher_p": 0.8170435218199573,
+  "fisher_OR": 1.1875,
+  "n_sex_biased": 116,
+  "n_m_biased": 59,
+  "n_f_biased": 57,
+  "n_clusters_mapped": 487,
+  "notes": "M-biased GABA frac=0.333, F-biased GABA frac=0.296; Fisher p=0.8170; REFUTED"
+}
