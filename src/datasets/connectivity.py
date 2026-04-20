@@ -9,7 +9,7 @@ _BASE_URL = (
     "?criteria=service::mouse_connectivity_injection_structure"
 )
 _UNIONIZE_URL = "http://api.brain-map.org/api/v2/data/query.json?criteria=model::ProjectionStructureUnionize"
-_CACHE_DIR = Path(__file__).parent.parent.parent / "data/unionizes"
+_CACHE_DIR = Path(__file__).parent.parent.parent / "data/connectivity"
 
 
 async def _fetch_region(
