@@ -14,11 +14,13 @@ _REGION_COL = "region_of_interest_acronym"
 
 
 def _load_metadata(regions: list[str]) -> pl.DataFrame:
-    meta_path = _CACHE_DIR / "cell_metadata.csv"
+    meta_path = _CACHE_DIR / "cell_metadata.parquet"
     asyncio.run(ensure_files([(SCRNA_METADATA, meta_path)]))
-    filtered = pl.read_csv(meta_path).filter(pl.col(_REGION_COL).is_in(regions))
+    filtered = pl.read_parquet(meta_path).filter(pl.col(_REGION_COL).is_in(regions))
     if filtered.is_empty():
-        raise ValueError(f"No cells found for regions {regions} in column '{_REGION_COL}'")
+        raise ValueError(
+            f"No cells found for regions {regions} in column '{_REGION_COL}'"
+        )
     return filtered
 
 
@@ -49,6 +51,8 @@ class ScRNADataset:
 
 
 if __name__ == "__main__":
-    adata = ScRNADataset().load(["MB"])
+    ds = ScRNADataset()
+    adata = ds.load(["PL5", "PL6a"])
+
     print(adata)
     print(adata.obs.head())

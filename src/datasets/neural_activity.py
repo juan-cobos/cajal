@@ -1,6 +1,7 @@
 from dataclasses import dataclass, fields
 from pathlib import Path
 from typing import Literal
+
 import polars as pl
 
 _CSV_PATH = Path(__file__).parent.parent.parent / "data/pfcmap/units.csv"
@@ -48,7 +49,9 @@ class NeuralActivityDataset:
         if utypes is not None:
             df = df.filter(pl.col("utype").is_in(utypes))
         if regions is not None:
-            df = df.filter(pl.col("area").is_in(regions) | pl.col("region").is_in(regions))
+            df = df.filter(
+                pl.col("area").is_in(regions) | pl.col("region").is_in(regions)
+            )
         if passes_filters is not None:
             df = df.filter(pl.col("passes_filters") == passes_filters)
         return df
@@ -62,11 +65,33 @@ class NeuralActivityDataset:
         df = self.load(regions=regions, utypes=utypes, passes_filters=passes_filters)
         field_names = {f.name for f in fields(Unit)}
         cols = [c for c in df.columns if c in field_names]
-        return [Unit(**{k: row[k] for k in cols}) for row in df.select(cols).iter_rows(named=True)]
+        return [
+            Unit(**{k: row[k] for k in cols})
+            for row in df.select(cols).iter_rows(named=True)
+        ]
 
 
 if __name__ == "__main__":
     ds = NeuralActivityDataset()
     df = ds.load(utypes=["ww"], passes_filters=True)
-    df = df.filter(pl.col("u") > 0, pl.col("v") > 0)
-    print(df)
+    print(df.columns)
+    from collections import Counter
+    import pprint
+
+    all_regions = set(df["region"])
+    df_prelimbic = df.filter(pl.col("region").is_in(["PL5", "PL6a"]))
+    print(f"n_units in prelimbic: {len(df_prelimbic)}")
+
+    pfc_areas = ["PL", "ILA", "ACAd", "ACAv", "ORBm", "ORBl", "ORBvl", "FRP"]
+    df_pfc = df.filter(pl.col("area").is_in(pfc_areas))
+    print(f"n_pfc_units: {len(df_pfc)}")
+
+    k = 10
+    top_regions = (
+        df_pfc.group_by("region")
+        .len()
+        .sort("len", descending=True)
+        .head(k)
+    )
+    print(f"top {k} pfc regions:")
+    print(top_regions)

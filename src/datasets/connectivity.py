@@ -17,20 +17,23 @@ async def _fetch_region(
     region: str,
     mouse_line: str | None,
     primary_injection: bool,
+    retries: int = 3,
 ) -> tuple[str, list[int]]:
     url = (
         f"{_BASE_URL}[injection_structures$eq{region}]"
         f"{'[transgenic_lines$eq' + mouse_line + ']' if mouse_line else ''}"
         f"[primary_structure_only$eq{'true' if primary_injection else 'false'}]"
     )
-    async with session.get(url) as resp:
-        result = await resp.json(content_type=None)
-    if not result.get("success"):
-        print(f"Query failed for {region}: {result.get('msg')}")
-        return region, []
-    entries = result["msg"]
-    print(f"Found {len(entries)} experiments in {region}")
-    return region, [e["id"] for e in entries]
+    for attempt in range(retries):
+        async with session.get(url) as resp:
+            result = await resp.json(content_type=None)
+        if result.get("success"):
+            entries = result["msg"]
+            print(f"Found {len(entries)} experiments in {region}")
+            return region, [e["id"] for e in entries]
+        await asyncio.sleep(2**attempt)
+    print(f"Query failed for {region} after {retries} retries: {result.get('msg')}")
+    return region, []
 
 
 def _find_experiments(
@@ -41,7 +44,10 @@ def _find_experiments(
     async def _gather() -> dict[str, list[int]]:
         async with aiohttp.ClientSession() as session:
             results = await asyncio.gather(
-                *[_fetch_region(session, r, mouse_line, primary_injection) for r in regions]
+                *[
+                    _fetch_region(session, r, mouse_line, primary_injection)
+                    for r in regions
+                ]
             )
         return dict(results)
 
@@ -70,22 +76,29 @@ def _get_structure_unionizes(
         for eid in eids:
             path = _CACHE_DIR / f"{region}_{eid}.parquet"
             if path.exists():
-                frames.append(pl.read_parquet(path).with_columns(pl.lit(region).alias("input_region")))
+                frames.append(
+                    pl.read_parquet(path).with_columns(
+                        pl.lit(region).alias("input_region")
+                    )
+                )
             else:
                 missing.setdefault(region, []).append(eid)
 
     if missing:
+
         async def _gather_unionizes() -> list[pl.DataFrame]:
             async with aiohttp.ClientSession() as session:
-                results = await asyncio.gather(*[
-                    _fetch_unionizes(
-                        session,
-                        f"{_UNIONIZE_URL}"
-                        f"[section_data_set_id$in{','.join(str(i) for i in eids)}]"
-                        f"&num_rows={num_rows}&count=false",
-                    )
-                    for eids in missing.values()
-                ])
+                results = await asyncio.gather(
+                    *[
+                        _fetch_unionizes(
+                            session,
+                            f"{_UNIONIZE_URL}"
+                            f"[section_data_set_id$in{','.join(str(i) for i in eids)}]"
+                            f"&num_rows={num_rows}&count=false",
+                        )
+                        for eids in missing.values()
+                    ]
+                )
             return [
                 pl.DataFrame(rows).with_columns(pl.lit(region).alias("input_region"))
                 for region, rows in zip(missing.keys(), results)
@@ -118,3 +131,41 @@ class ConnectivityDataset:
     def load(self, regions: list[str]) -> pl.DataFrame:
         experiments = _find_experiments(regions)
         return _get_structure_unionizes(experiments)
+
+
+if __name__ == "__main__":
+    ds = ConnectivityDataset()
+    df = ds.load(["PL5", "PL6a"])
+    print(f"shape: {df.shape}")
+    print(f"columns: {df.columns}")
+    print(df.head())
+
+    print("\nexperiments per input_region:")
+    print(
+        df.group_by("input_region")
+        .agg(pl.col("section_data_set_id").n_unique().alias("n_experiments"))
+    )
+
+    print("\nunique target structures:", df["structure_id"].n_unique())
+    print("hemispheres:", df["hemisphere_id"].unique().to_list())
+
+    print("\nprojection stats:")
+    print(
+        df.select(
+            "projection_volume",
+            "normalized_projection_volume",
+            "projection_density",
+            "projection_energy",
+        ).describe()
+    )
+
+    print("\ntop 10 target structures by mean normalized_projection_volume:")
+    print(
+        df.group_by("structure_id")
+        .agg(
+            pl.col("normalized_projection_volume").mean().alias("mean_npv"),
+            pl.len().alias("n"),
+        )
+        .sort("mean_npv", descending=True)
+        .head(10)
+    )

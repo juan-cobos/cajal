@@ -18,7 +18,9 @@ def _load_metadata(regions: list[str]) -> pl.DataFrame:
     asyncio.run(ensure_files([(MERFISH_METADATA, meta_path)]))
     filtered = pl.read_csv(meta_path).filter(pl.col(_REGION_COL).is_in(regions))
     if filtered.is_empty():
-        raise ValueError(f"No cells found for regions {regions} in column '{_REGION_COL}'")
+        raise ValueError(
+            f"No cells found for regions {regions} in column '{_REGION_COL}'"
+        )
     return filtered
 
 
