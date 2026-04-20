@@ -1,0 +1,15 @@
+{
+  "hypothesis_id": "H08",
+  "status": "CONFIRMED",
+  "n_cells": 106122,
+  "n_male": 71308,
+  "n_female": 34814,
+  "n_clusters_tested": 338,
+  "n_sex_biased_clusters": 116,
+  "n_male_biased": 59,
+  "n_female_biased": 57,
+  "permutation_p": 0.0,
+  "null_mean_n_sig": 0.028,
+  "null_95th_pct": 0.0,
+  "notes": "116 sex-biased clusters vs null mean=0.0; p_perm=0.0000; CONFIRMED"
+}
