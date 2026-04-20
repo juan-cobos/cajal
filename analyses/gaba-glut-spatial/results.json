@@ -1,0 +1,13 @@
+{
+  "hypothesis_id": "H04",
+  "status": "CONFIRMED",
+  "statistic": 65726018.5,
+  "p_value": 0.0,
+  "effect_size": -0.8562420874437096,
+  "n_cells": 42940,
+  "n_gaba": 5447,
+  "n_glut": 37493,
+  "gaba_mean_enrichment": 1.199074973799907,
+  "glut_mean_enrichment": 2.0553170612436165,
+  "notes": "GABA enrichment (1.199) < Glut (2.055): CONFIRMED"
+}
