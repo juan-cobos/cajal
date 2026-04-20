@@ -1,0 +1,52 @@
+{
+  "hypothesis_id": "H32",
+  "status": "CONFIRMED",
+  "transcriptomic_knn": {
+    "subclass": {
+      "mean_enrichment": 0.0374,
+      "frac_positive": 0.513,
+      "p": 0.50471947
+    },
+    "supertype": {
+      "mean_enrichment": 0.0429,
+      "frac_positive": 0.4834,
+      "p": 0.99999974
+    },
+    "cluster": {
+      "mean_enrichment": 0.0426,
+      "frac_positive": 0.4158,
+      "p": 1.0
+    },
+    "glut_subclass": {
+      "mean_enrichment": 0.0863,
+      "p": 0.0
+    },
+    "gaba_subclass": {
+      "mean_enrichment": 0.01,
+      "p": 0.99999978
+    },
+    "within_subclass_cluster": {
+      "mean_enrichment": 0.0485,
+      "frac_positive": 0.5178,
+      "p": 0.0
+    }
+  },
+  "functional_spatial": {
+    "same_cluster_mean_dist": 698.17,
+    "diff_cluster_mean_dist": 751.62,
+    "p": 0.0
+  },
+  "cross_modal_composition": {
+    "mantel_r": -0.0229,
+    "mantel_p_perm": 0.879212,
+    "partial_r": 0.0095,
+    "partial_p": 0.950853
+  },
+  "connectivity_composition": {
+    "conn_merfish_r": -0.0603,
+    "conn_merfish_p": 0.694111,
+    "conn_ephys_r": 0.1102,
+    "conn_ephys_p": 0.471153
+  },
+  "notes": "Within-subclass cluster \u0394=+0.0485 p=3.90e-20; Func \u0394dist p=1.15e-24; Cross Mantel r=-0.0229 p=0.8792; CONFIRMED"
+}
