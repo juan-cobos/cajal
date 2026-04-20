@@ -1,0 +1,133 @@
+{
+  "hypothesis_id": "H22",
+  "status": "REFUTED",
+  "correlations": {
+    "Striatal NPV \u2192 ET frac": {
+      "rho": 0.0,
+      "p": 1.0,
+      "pearson_r": -0.10320938632226469
+    },
+    "Striatal NPV \u2192 IT frac": {
+      "rho": 0.19999999999999998,
+      "p": 0.7470600781046621,
+      "pearson_r": 0.26224037992857596
+    },
+    "Striatal NPV \u2192 GABA frac": {
+      "rho": 0.3,
+      "p": 0.623837664781073,
+      "pearson_r": 0.578523336141517
+    },
+    "Striatal NPV \u2192 WW rate": {
+      "rho": -0.19999999999999998,
+      "p": 0.7470600781046621,
+      "pearson_r": -0.12622724525501225
+    },
+    "Striatal NPV \u2192 WW burst": {
+      "rho": -0.49999999999999994,
+      "p": 0.3910022189557703,
+      "pearson_r": -0.6212699199793706
+    },
+    "ET frac \u2192 WW rate": {
+      "rho": -0.3,
+      "p": 0.623837664781073,
+      "pearson_r": -0.4194099759512478
+    },
+    "ET frac \u2192 WW burst": {
+      "rho": -0.49999999999999994,
+      "p": 0.3910022189557703,
+      "pearson_r": -0.5993486585455522
+    },
+    "IT frac \u2192 WW rate": {
+      "rho": 0.7,
+      "p": 0.1881204043741873,
+      "pearson_r": 0.2503100962448555
+    },
+    "IT frac \u2192 WW burst": {
+      "rho": 0.6,
+      "p": 0.28475697986529386,
+      "pearson_r": 0.33591144068718837
+    },
+    "GABA frac \u2192 WW rate": {
+      "rho": -0.7,
+      "p": 0.1881204043741873,
+      "pearson_r": -0.7432870737226985
+    },
+    "GABA frac \u2192 WW burst": {
+      "rho": -0.6,
+      "p": 0.28475697986529386,
+      "pearson_r": -0.629713086194536
+    },
+    "MD NPV \u2192 WW rate": {
+      "rho": -0.19999999999999998,
+      "p": 0.7470600781046621,
+      "pearson_r": 0.06966256184974809
+    },
+    "MD NPV \u2192 ET frac": {
+      "rho": 0.3,
+      "p": 0.623837664781073,
+      "pearson_r": 0.5499700616528242
+    },
+    "MD NPV \u2192 GABA frac": {
+      "rho": -0.3,
+      "p": 0.623837664781073,
+      "pearson_r": -0.6364220781770877
+    }
+  },
+  "permutation_chain_p": 0.5259,
+  "n_regions": 5,
+  "layer": "5 only",
+  "utype": "ww only",
+  "region_details": [
+    {
+      "region": "ILA5",
+      "striatal_npv": 0.858,
+      "md_npv": 0.1678,
+      "et_fraction": 0.4175,
+      "it_fraction": 0.3619,
+      "gaba_fraction": 0.1752,
+      "ww_rate": 0.0826,
+      "ww_burst": -0.0923
+    },
+    {
+      "region": "ORBl5",
+      "striatal_npv": 0.6589,
+      "md_npv": 0.1806,
+      "et_fraction": 0.2787,
+      "it_fraction": 0.4436,
+      "gaba_fraction": 0.1551,
+      "ww_rate": 0.2625,
+      "ww_burst": 0.0088
+    },
+    {
+      "region": "ORBm5",
+      "striatal_npv": 0.7711,
+      "md_npv": 0.3493,
+      "et_fraction": 0.433,
+      "it_fraction": 0.2743,
+      "gaba_fraction": 0.1408,
+      "ww_rate": 0.2559,
+      "ww_burst": -0.0484
+    },
+    {
+      "region": "ORBvl5",
+      "striatal_npv": 0.9489,
+      "md_npv": 0.0915,
+      "et_fraction": 0.3535,
+      "it_fraction": 0.4549,
+      "gaba_fraction": 0.1541,
+      "ww_rate": 0.2893,
+      "ww_burst": -0.0367
+    },
+    {
+      "region": "PL5",
+      "striatal_npv": 1.3203,
+      "md_npv": 0.1236,
+      "et_fraction": 0.3266,
+      "it_fraction": 0.4221,
+      "gaba_fraction": 0.1737,
+      "ww_rate": 0.2087,
+      "ww_burst": -0.0813
+    }
+  ],
+  "notes": "L5-only: NPV\u2192ET \u03c1=+0.000 p=1.000; ET\u2192rate \u03c1=-0.300 p=0.624; chain_perm=0.5259; REFUTED"
+}
