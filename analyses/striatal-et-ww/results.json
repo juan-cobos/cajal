@@ -1,0 +1,125 @@
+{
+  "hypothesis_id": "H21",
+  "status": "REFUTED",
+  "full_npv_et_rho": 0.24848484848484845,
+  "full_npv_et_p": 0.4887763045192432,
+  "full_et_rate_rho": -0.19999999999999998,
+  "full_et_rate_p": 0.5795840000000002,
+  "full_npv_rate_rho": -0.05454545454545454,
+  "full_npv_rate_p": 0.8810361811618526,
+  "full_npv_burst_rho": -0.32121212121212117,
+  "full_npv_burst_p": 0.36546831043867045,
+  "l5_npv_et_rho": 0.0,
+  "l5_npv_et_p": 1.0,
+  "l5_et_rate_rho": -0.49999999999999994,
+  "l5_et_rate_p": 0.3910022189557703,
+  "l5_npv_rate_rho": -0.49999999999999994,
+  "l5_npv_rate_p": 0.3910022189557703,
+  "l5_gt_l6_et_p": 0.03125,
+  "l5_gt_l6_rate_p": 0.78125,
+  "permutation_chain_p": 0.5157,
+  "n_regions": 10,
+  "region_details": [
+    {
+      "region": "ILA5",
+      "layer": "L5",
+      "striatal_npv": 0.858,
+      "et_fraction": 0.4175,
+      "it_fraction": 0.3619,
+      "ct_fraction": 0.8149,
+      "ww_rate": 0.1893,
+      "ww_burst": -0.0923
+    },
+    {
+      "region": "ILA6a",
+      "layer": "L6",
+      "striatal_npv": 0.7313,
+      "et_fraction": 0.0295,
+      "it_fraction": 0.1402,
+      "ct_fraction": 0.9662,
+      "ww_rate": 0.2901,
+      "ww_burst": -0.1027
+    },
+    {
+      "region": "ORBl5",
+      "layer": "L5",
+      "striatal_npv": 0.6589,
+      "et_fraction": 0.2787,
+      "it_fraction": 0.4436,
+      "ct_fraction": 0.9803,
+      "ww_rate": 0.3512,
+      "ww_burst": 0.0088
+    },
+    {
+      "region": "ORBl6a",
+      "layer": "L6",
+      "striatal_npv": 0.4854,
+      "et_fraction": 0.0257,
+      "it_fraction": 0.3219,
+      "ct_fraction": 0.9799,
+      "ww_rate": 0.2081,
+      "ww_burst": -0.0122
+    },
+    {
+      "region": "ORBm5",
+      "layer": "L5",
+      "striatal_npv": 0.7711,
+      "et_fraction": 0.433,
+      "it_fraction": 0.2743,
+      "ct_fraction": 0.927,
+      "ww_rate": 0.3318,
+      "ww_burst": -0.0484
+    },
+    {
+      "region": "ORBm6a",
+      "layer": "L6",
+      "striatal_npv": 0.5987,
+      "et_fraction": 0.0368,
+      "it_fraction": 0.229,
+      "ct_fraction": 0.9771,
+      "ww_rate": 0.3487,
+      "ww_burst": -0.0665
+    },
+    {
+      "region": "ORBvl5",
+      "layer": "L5",
+      "striatal_npv": 0.9489,
+      "et_fraction": 0.3535,
+      "it_fraction": 0.4549,
+      "ct_fraction": 0.9577,
+      "ww_rate": 0.3462,
+      "ww_burst": -0.0367
+    },
+    {
+      "region": "ORBvl6a",
+      "layer": "L6",
+      "striatal_npv": 0.8648,
+      "et_fraction": 0.0222,
+      "it_fraction": 0.2638,
+      "ct_fraction": 0.992,
+      "ww_rate": 0.3931,
+      "ww_burst": -0.0682
+    },
+    {
+      "region": "PL5",
+      "layer": "L5",
+      "striatal_npv": 1.3203,
+      "et_fraction": 0.3266,
+      "it_fraction": 0.4221,
+      "ct_fraction": 0.9154,
+      "ww_rate": 0.2743,
+      "ww_burst": -0.0813
+    },
+    {
+      "region": "PL6a",
+      "layer": "L6",
+      "striatal_npv": 1.2938,
+      "et_fraction": 0.0313,
+      "it_fraction": 0.2323,
+      "ct_fraction": 0.9762,
+      "ww_rate": 0.3026,
+      "ww_burst": -0.0627
+    }
+  ],
+  "notes": "NPV\u2192ET: \u03c1=0.248 p=0.489; ET\u2192WWrate: \u03c1=-0.200 p=0.580; chain_perm=0.5157; REFUTED"
+}
