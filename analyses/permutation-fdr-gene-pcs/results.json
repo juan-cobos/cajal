@@ -1,0 +1,405 @@
+{
+  "hypothesis_id": "H31",
+  "status": "REFUTED",
+  "n_regions": 10,
+  "n_gene_pcs": 9,
+  "n_ephys_pcs": 4,
+  "n_effective_tests": 36,
+  "gene_pc_variance": [
+    0.3751,
+    0.3174,
+    0.1147,
+    0.07,
+    0.0561,
+    0.0307,
+    0.0142,
+    0.0116,
+    0.0102
+  ],
+  "ephys_pc_variance": [
+    0.4767,
+    0.2554,
+    0.2425,
+    0.0228
+  ],
+  "ephys_pc_loadings": {
+    "EphysPC1": {
+      "burst_all": 0.482,
+      "ww_burst": 0.467,
+      "rate_all": 0.4998,
+      "ww_rate": 0.4508,
+      "nw_frac": 0.186,
+      "ww_M": 0.2491
+    },
+    "EphysPC2": {
+      "burst_all": 0.1913,
+      "ww_burst": 0.2101,
+      "rate_all": -0.3499,
+      "ww_rate": -0.4755,
+      "nw_frac": 0.7047,
+      "ww_M": 0.2724
+    },
+    "EphysPC3": {
+      "burst_all": -0.4371,
+      "ww_burst": -0.4503,
+      "rate_all": 0.2287,
+      "ww_rate": 0.2077,
+      "nw_frac": 0.2474,
+      "ww_M": 0.6704
+    },
+    "EphysPC4": {
+      "burst_all": 0.0739,
+      "ww_burst": 0.3086,
+      "rate_all": -0.3383,
+      "ww_rate": -0.1227,
+      "nw_frac": -0.6075,
+      "ww_M": 0.633
+    }
+  },
+  "fwer_thresholds_raw": {
+    "alpha_05": 0.8788,
+    "alpha_01": 0.9273
+  },
+  "fwer_thresholds_partial": {
+    "alpha_05": 0.9,
+    "alpha_01": 0.9393
+  },
+  "n_fwer_sig_raw_05": 1,
+  "n_fwer_sig_raw_01": 0,
+  "n_fwer_sig_partial_05": 0,
+  "n_fwer_sig_partial_01": 0,
+  "fwer_sig_partial": [],
+  "all_partial_results": [
+    {
+      "gene_pc": 2,
+      "ephys_pc": 1,
+      "rho_partial": 0.8868,
+      "rho_raw": 0.8788,
+      "p_fwer": 0.074093,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 4,
+      "ephys_pc": 4,
+      "rho_partial": 0.8146,
+      "rho_raw": 0.8061,
+      "p_fwer": 0.288371,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 6,
+      "ephys_pc": 3,
+      "rho_partial": 0.736,
+      "rho_raw": 0.5273,
+      "p_fwer": 0.670233,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 1,
+      "ephys_pc": 4,
+      "rho_partial": -0.7144,
+      "rho_raw": -0.3212,
+      "p_fwer": 0.765823,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 1,
+      "ephys_pc": 1,
+      "rho_partial": -0.6158,
+      "rho_raw": -0.2727,
+      "p_fwer": 0.984302,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 5,
+      "ephys_pc": 2,
+      "rho_partial": 0.5831,
+      "rho_raw": 0.4788,
+      "p_fwer": 0.9979,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 1,
+      "ephys_pc": 2,
+      "rho_partial": 0.1732,
+      "rho_raw": -0.3818,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 1,
+      "ephys_pc": 3,
+      "rho_partial": 0.1443,
+      "rho_raw": -0.5879,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 2,
+      "ephys_pc": 2,
+      "rho_partial": 0.0289,
+      "rho_raw": -0.0667,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 2,
+      "ephys_pc": 3,
+      "rho_partial": -0.4691,
+      "rho_raw": -0.4424,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 2,
+      "ephys_pc": 4,
+      "rho_partial": 0.271,
+      "rho_raw": 0.2727,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 3,
+      "ephys_pc": 1,
+      "rho_partial": 0.199,
+      "rho_raw": 0.2,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 3,
+      "ephys_pc": 2,
+      "rho_partial": 0.4978,
+      "rho_raw": 0.4061,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 3,
+      "ephys_pc": 3,
+      "rho_partial": 0.0107,
+      "rho_raw": -0.0182,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 3,
+      "ephys_pc": 4,
+      "rho_partial": -0.1408,
+      "rho_raw": -0.1394,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 4,
+      "ephys_pc": 1,
+      "rho_partial": -0.0146,
+      "rho_raw": -0.0182,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 4,
+      "ephys_pc": 2,
+      "rho_partial": -0.2144,
+      "rho_raw": -0.1273,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 4,
+      "ephys_pc": 3,
+      "rho_partial": 0.075,
+      "rho_raw": 0.1273,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 5,
+      "ephys_pc": 1,
+      "rho_partial": -0.1529,
+      "rho_raw": -0.1515,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 5,
+      "ephys_pc": 3,
+      "rho_partial": -0.3449,
+      "rho_raw": -0.2606,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 5,
+      "ephys_pc": 4,
+      "rho_partial": 0.3204,
+      "rho_raw": 0.3212,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 6,
+      "ephys_pc": 1,
+      "rho_partial": 0.0316,
+      "rho_raw": 0.0303,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 6,
+      "ephys_pc": 2,
+      "rho_partial": -0.4409,
+      "rho_raw": -0.3576,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 6,
+      "ephys_pc": 4,
+      "rho_partial": -0.1505,
+      "rho_raw": -0.1515,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 7,
+      "ephys_pc": 1,
+      "rho_partial": -0.1019,
+      "rho_raw": -0.103,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 7,
+      "ephys_pc": 2,
+      "rho_partial": 0.0142,
+      "rho_raw": 0.0303,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 7,
+      "ephys_pc": 3,
+      "rho_partial": 0.4515,
+      "rho_raw": 0.3333,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 7,
+      "ephys_pc": 4,
+      "rho_partial": 0.1165,
+      "rho_raw": 0.1152,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 8,
+      "ephys_pc": 1,
+      "rho_partial": 0.039,
+      "rho_raw": 0.0424,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 8,
+      "ephys_pc": 2,
+      "rho_partial": -0.243,
+      "rho_raw": -0.2606,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 8,
+      "ephys_pc": 3,
+      "rho_partial": 0.0143,
+      "rho_raw": -0.0667,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 8,
+      "ephys_pc": 4,
+      "rho_partial": 0.1488,
+      "rho_raw": 0.1515,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 9,
+      "ephys_pc": 1,
+      "rho_partial": -0.3561,
+      "rho_raw": -0.3576,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 9,
+      "ephys_pc": 2,
+      "rho_partial": 0.0715,
+      "rho_raw": 0.1152,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 9,
+      "ephys_pc": 3,
+      "rho_partial": -0.1572,
+      "rho_raw": -0.0303,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    },
+    {
+      "gene_pc": 9,
+      "ephys_pc": 4,
+      "rho_partial": 0.1683,
+      "rho_raw": 0.1636,
+      "p_fwer": 1.0,
+      "fwer_sig_05": false,
+      "fwer_sig_01": false
+    }
+  ],
+  "comparison": {
+    "bh_440_individual": 10,
+    "bh_36_pc": 1,
+    "fwer_36_pc_raw": 1,
+    "fwer_36_pc_partial": 0
+  },
+  "notes": "Permutation FWER \u03b1=0.05: 0/36 partial sig; REFUTED"
+}
