@@ -1,0 +1,315 @@
+{
+  "hypothesis_id": "H33",
+  "status": "CONFIRMED",
+  "merfish_spatial_network": {
+    "mean_modularity_subclass": 0.0353,
+    "mean_modularity_nt": 0.0091,
+    "mean_ari_subclass": 0.0069,
+    "per_region": {
+      "PL5": {
+        "n_nodes": 3872,
+        "n_edges": 22783,
+        "density": 0.00304,
+        "avg_degree": 11.77,
+        "modularity_detected": 0.9205,
+        "modularity_by_subclass": 0.0262,
+        "modularity_by_nt": 0.0048,
+        "n_communities": 16,
+        "ari_detected_vs_subclass": 0.0072
+      },
+      "ILA5": {
+        "n_nodes": 1799,
+        "n_edges": 10537,
+        "density": 0.006515,
+        "avg_degree": 11.71,
+        "modularity_detected": 0.8142,
+        "modularity_by_subclass": 0.0379,
+        "modularity_by_nt": 0.0205,
+        "n_communities": 8,
+        "ari_detected_vs_subclass": 0.0024
+      },
+      "ORBl5": {
+        "n_nodes": 5273,
+        "n_edges": 31009,
+        "density": 0.002231,
+        "avg_degree": 11.76,
+        "modularity_detected": 0.9072,
+        "modularity_by_subclass": 0.0439,
+        "modularity_by_nt": 0.0019,
+        "n_communities": 14,
+        "ari_detected_vs_subclass": 0.0123
+      },
+      "ORBm5": {
+        "n_nodes": 2450,
+        "n_edges": 14498,
+        "density": 0.004833,
+        "avg_degree": 11.84,
+        "modularity_detected": 0.8903,
+        "modularity_by_subclass": 0.0423,
+        "modularity_by_nt": 0.0088,
+        "n_communities": 12,
+        "ari_detected_vs_subclass": 0.0139
+      },
+      "ORBvl5": {
+        "n_nodes": 3303,
+        "n_edges": 19343,
+        "density": 0.003547,
+        "avg_degree": 11.71,
+        "modularity_detected": 0.9099,
+        "modularity_by_subclass": 0.039,
+        "modularity_by_nt": 0.002,
+        "n_communities": 13,
+        "ari_detected_vs_subclass": 0.0138
+      },
+      "PL6a": {
+        "n_nodes": 6159,
+        "n_edges": 35159,
+        "density": 0.001854,
+        "avg_degree": 11.42,
+        "modularity_detected": 0.8952,
+        "modularity_by_subclass": 0.0359,
+        "modularity_by_nt": 0.0075,
+        "n_communities": 11,
+        "ari_detected_vs_subclass": 0.005
+      },
+      "ILA6a": {
+        "n_nodes": 2260,
+        "n_edges": 13000,
+        "density": 0.005093,
+        "avg_degree": 11.5,
+        "modularity_detected": 0.8049,
+        "modularity_by_subclass": 0.0352,
+        "modularity_by_nt": 0.0181,
+        "n_communities": 10,
+        "ari_detected_vs_subclass": 0.0026
+      },
+      "ORBl6a": {
+        "n_nodes": 4560,
+        "n_edges": 26472,
+        "density": 0.002547,
+        "avg_degree": 11.61,
+        "modularity_detected": 0.8874,
+        "modularity_by_subclass": 0.0348,
+        "modularity_by_nt": 0.0109,
+        "n_communities": 11,
+        "ari_detected_vs_subclass": 0.0034
+      },
+      "ORBm6a": {
+        "n_nodes": 3328,
+        "n_edges": 19205,
+        "density": 0.003469,
+        "avg_degree": 11.54,
+        "modularity_detected": 0.8647,
+        "modularity_by_subclass": 0.0352,
+        "modularity_by_nt": 0.0131,
+        "n_communities": 9,
+        "ari_detected_vs_subclass": 0.0053
+      },
+      "ORBvl6a": {
+        "n_nodes": 2420,
+        "n_edges": 13983,
+        "density": 0.004777,
+        "avg_degree": 11.56,
+        "modularity_detected": 0.8825,
+        "modularity_by_subclass": 0.0226,
+        "modularity_by_nt": 0.0036,
+        "n_communities": 10,
+        "ari_detected_vs_subclass": 0.0034
+      }
+    },
+    "permutation_p_pl5": 0.000999
+  },
+  "functional_spatial_network": {
+    "mean_modularity_cluster": 0.0115,
+    "mean_ari_cluster": 0.0167,
+    "per_recording": {
+      "128514_20191215-probe0": {
+        "n": 365,
+        "mod_detected": 0.8348,
+        "mod_by_cluster": 0.0246,
+        "mod_by_utype": 0.0013,
+        "ari_vs_cluster": 0.0106,
+        "n_communities": 10
+      },
+      "152417_20191023-probe0": {
+        "n": 346,
+        "mod_detected": 0.8323,
+        "mod_by_cluster": -0.0105,
+        "mod_by_utype": -0.0031,
+        "ari_vs_cluster": 0.0026,
+        "n_communities": 11
+      },
+      "156131_20191112-probe0": {
+        "n": 285,
+        "mod_detected": 0.8019,
+        "mod_by_cluster": -0.0048,
+        "mod_by_utype": -0.0051,
+        "ari_vs_cluster": 0.0059,
+        "n_communities": 6
+      },
+      "152414_20191023-probe0": {
+        "n": 269,
+        "mod_detected": 0.7806,
+        "mod_by_cluster": 0.0225,
+        "mod_by_utype": 0.0023,
+        "ari_vs_cluster": 0.0346,
+        "n_communities": 5
+      },
+      "PL026_20190430-probe0": {
+        "n": 263,
+        "mod_detected": 0.8244,
+        "mod_by_cluster": -0.0141,
+        "mod_by_utype": -0.0003,
+        "ari_vs_cluster": -0.0048,
+        "n_communities": 7
+      },
+      "PL080_20230622-probe0": {
+        "n": 233,
+        "mod_detected": 0.807,
+        "mod_by_cluster": 0.0089,
+        "mod_by_utype": -0.0076,
+        "ari_vs_cluster": -0.0046,
+        "n_communities": 7
+      },
+      "128516_20191215-probe0": {
+        "n": 221,
+        "mod_detected": 0.7545,
+        "mod_by_cluster": 0.0545,
+        "mod_by_utype": -0.003,
+        "ari_vs_cluster": 0.0339,
+        "n_communities": 6
+      },
+      "PL031_20190524-probe0": {
+        "n": 220,
+        "mod_detected": 0.7754,
+        "mod_by_cluster": 0.0057,
+        "mod_by_utype": -0.0049,
+        "ari_vs_cluster": 0.0006,
+        "n_communities": 6
+      },
+      "156130_20191112-probe0": {
+        "n": 207,
+        "mod_detected": 0.7841,
+        "mod_by_cluster": 0.0124,
+        "mod_by_utype": -0.0003,
+        "ari_vs_cluster": 0.0148,
+        "n_communities": 7
+      },
+      "216301_20200521-probe0": {
+        "n": 205,
+        "mod_detected": 0.745,
+        "mod_by_cluster": -0.0035,
+        "mod_by_utype": 0.015,
+        "ari_vs_cluster": -0.0057,
+        "n_communities": 6
+      },
+      "225759_20200521-probe0": {
+        "n": 205,
+        "mod_detected": 0.7172,
+        "mod_by_cluster": 0.0521,
+        "mod_by_utype": 0.0039,
+        "ari_vs_cluster": 0.0735,
+        "n_communities": 4
+      },
+      "PL030_20190518-probe0": {
+        "n": 193,
+        "mod_detected": 0.7846,
+        "mod_by_cluster": 0.0088,
+        "mod_by_utype": -0.0016,
+        "ari_vs_cluster": -0.0004,
+        "n_communities": 7
+      },
+      "250253_20200609-probe0": {
+        "n": 190,
+        "mod_detected": 0.7136,
+        "mod_by_cluster": 0.0119,
+        "mod_by_utype": 0.0111,
+        "ari_vs_cluster": 0.0378,
+        "n_communities": 5
+      },
+      "PL062_20200420-probe0": {
+        "n": 188,
+        "mod_detected": 0.7064,
+        "mod_by_cluster": -0.0004,
+        "mod_by_utype": -0.0049,
+        "ari_vs_cluster": -0.001,
+        "n_communities": 4
+      },
+      "PL032_20190524-probe0": {
+        "n": 180,
+        "mod_detected": 0.7161,
+        "mod_by_cluster": 0.0078,
+        "mod_by_utype": 0.0073,
+        "ari_vs_cluster": 0.0445,
+        "n_communities": 6
+      },
+      "PL082_20230912-probe0": {
+        "n": 172,
+        "mod_detected": 0.7135,
+        "mod_by_cluster": 0.0256,
+        "mod_by_utype": -0.005,
+        "ari_vs_cluster": 0.0268,
+        "n_communities": 5
+      },
+      "268947_20200922-probe0": {
+        "n": 155,
+        "mod_detected": 0.6836,
+        "mod_by_cluster": 0.03,
+        "mod_by_utype": -0.004,
+        "ari_vs_cluster": 0.0221,
+        "n_communities": 4
+      },
+      "216300_20200518-probe0": {
+        "n": 138,
+        "mod_detected": 0.7305,
+        "mod_by_cluster": 0.0005,
+        "mod_by_utype": -0.0099,
+        "ari_vs_cluster": 0.0173,
+        "n_communities": 5
+      },
+      "PL081_20230620-probe0": {
+        "n": 135,
+        "mod_detected": 0.6623,
+        "mod_by_cluster": 0.0225,
+        "mod_by_utype": -0.0092,
+        "ari_vs_cluster": 0.0274,
+        "n_communities": 4
+      },
+      "PL082_20230912-probe1": {
+        "n": 128,
+        "mod_detected": 0.6812,
+        "mod_by_cluster": -0.0247,
+        "mod_by_utype": -0.0103,
+        "ari_vs_cluster": -0.0024,
+        "n_communities": 4
+      }
+    }
+  },
+  "cross_modal_bipartite": {
+    "n_transcriptomic_nodes": 31,
+    "n_functional_nodes": 15,
+    "n_edges": 106
+  },
+  "connectivity_network": {
+    "n_nodes": 10,
+    "n_edges": 45,
+    "n_communities": 1,
+    "communities": [
+      [
+        "ILA5",
+        "ILA6a",
+        "ORBl5",
+        "ORBl6a",
+        "ORBm5",
+        "ORBm6a",
+        "ORBvl5",
+        "ORBvl6a",
+        "PL5",
+        "PL6a"
+      ]
+    ],
+    "within_layer_edges": 20,
+    "cross_layer_edges": 25
+  },
+  "notes": "MF mod_subclass=0.0353 perm_p=0.0010; Func mod_cl=0.0115; Cross 106 links; CONFIRMED"
+}

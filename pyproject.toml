@@ -12,6 +12,7 @@ dependencies = [
     "aiohttp>=3.9",
     "anndata>=0.10",
     "h5py>=3.10",
+    "networkx>=3.6.1",
     "one-api>=3.5.2",
     "polars>=1.0",
     "requests>=2.33.1",
