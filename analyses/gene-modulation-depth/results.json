@@ -1,0 +1,707 @@
+{
+  "hypothesis_id": "H26",
+  "status": "CONFIRMED",
+  "n_tests": 440,
+  "n_raw_fdr": 57,
+  "n_partial_fdr": 0,
+  "layer_effect_on_M_mean": {
+    "r": 0.7738,
+    "p": 0.00863,
+    "R2": 0.5987
+  },
+  "top_raw": [
+    {
+      "key": "Grm3\u2192M_mean_ww",
+      "gene": "Grm3",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.9758,
+      "p_raw": 1e-06,
+      "rho_partial": 0.9,
+      "p_partial": 0.000387
+    },
+    {
+      "key": "Nfix\u2192M_mean_ww",
+      "gene": "Nfix",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.9758,
+      "p_raw": 1e-06,
+      "rho_partial": 0.9,
+      "p_partial": 0.000387
+    },
+    {
+      "key": "Nfix\u2192M_mean",
+      "gene": "Nfix",
+      "prop": "M_mean",
+      "rho_raw": 0.9636,
+      "p_raw": 7e-06,
+      "rho_partial": 0.85,
+      "p_partial": 0.001841
+    },
+    {
+      "key": "Grm3\u2192M_mean",
+      "gene": "Grm3",
+      "prop": "M_mean",
+      "rho_raw": 0.9515,
+      "p_raw": 2.3e-05,
+      "rho_partial": 0.8,
+      "p_partial": 0.005456
+    },
+    {
+      "key": "Pou3f1\u2192M_mean",
+      "gene": "Pou3f1",
+      "prop": "M_mean",
+      "rho_raw": -0.9394,
+      "p_raw": 5.5e-05,
+      "rho_partial": -0.75,
+      "p_partial": 0.012478
+    },
+    {
+      "key": "Htr7\u2192M_mean",
+      "gene": "Htr7",
+      "prop": "M_mean",
+      "rho_raw": 0.9273,
+      "p_raw": 0.000112,
+      "rho_partial": 0.7,
+      "p_partial": 0.024206
+    },
+    {
+      "key": "Nfix\u2192M_mean_Glut",
+      "gene": "Nfix",
+      "prop": "M_mean_Glut",
+      "rho_raw": 0.9273,
+      "p_raw": 0.000112,
+      "rho_partial": 0.7809,
+      "p_partial": 0.007666
+    },
+    {
+      "key": "Grm3\u2192M_mean_Glut",
+      "gene": "Grm3",
+      "prop": "M_mean_Glut",
+      "rho_raw": 0.9152,
+      "p_raw": 0.000204,
+      "rho_partial": 0.65,
+      "p_partial": 0.041899
+    },
+    {
+      "key": "Htr7\u2192M_mean_ww",
+      "gene": "Htr7",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.9152,
+      "p_raw": 0.000204,
+      "rho_partial": 0.65,
+      "p_partial": 0.041899
+    },
+    {
+      "key": "Npas1\u2192M_mean_GABA",
+      "gene": "Npas1",
+      "prop": "M_mean_GABA",
+      "rho_raw": 0.9152,
+      "p_raw": 0.000204,
+      "rho_partial": 0.65,
+      "p_partial": 0.041899
+    },
+    {
+      "key": "Pou3f1\u2192M_mean_ww",
+      "gene": "Pou3f1",
+      "prop": "M_mean_ww",
+      "rho_raw": -0.9152,
+      "p_raw": 0.000204,
+      "rho_partial": -0.65,
+      "p_partial": 0.041899
+    },
+    {
+      "key": "Pou3f1\u2192M_mean_Glut",
+      "gene": "Pou3f1",
+      "prop": "M_mean_Glut",
+      "rho_raw": -0.9152,
+      "p_raw": 0.000204,
+      "rho_partial": -0.65,
+      "p_partial": 0.041899
+    },
+    {
+      "key": "Htr7\u2192M_mean_Glut",
+      "gene": "Htr7",
+      "prop": "M_mean_Glut",
+      "rho_raw": 0.8909,
+      "p_raw": 0.000542,
+      "rho_partial": 0.55,
+      "p_partial": 0.099522
+    },
+    {
+      "key": "Bcl11b\u2192M_mean_GABA",
+      "gene": "Bcl11b",
+      "prop": "M_mean_GABA",
+      "rho_raw": -0.8788,
+      "p_raw": 0.000814,
+      "rho_partial": -0.5,
+      "p_partial": 0.141113
+    },
+    {
+      "key": "Ccn4\u2192M_mean",
+      "gene": "Ccn4",
+      "prop": "M_mean",
+      "rho_raw": 0.8788,
+      "p_raw": 0.000814,
+      "rho_partial": 0.5,
+      "p_partial": 0.141113
+    }
+  ],
+  "top_partial": [
+    {
+      "key": "Grm3\u2192M_mean_ww",
+      "gene": "Grm3",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.9758,
+      "p_raw": 1e-06,
+      "rho_partial": 0.9,
+      "p_partial": 0.000387
+    },
+    {
+      "key": "Nfix\u2192M_mean_ww",
+      "gene": "Nfix",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.9758,
+      "p_raw": 1e-06,
+      "rho_partial": 0.9,
+      "p_partial": 0.000387
+    },
+    {
+      "key": "Nr4a2\u2192M_mean_nw",
+      "gene": "Nr4a2",
+      "prop": "M_mean_nw",
+      "rho_raw": 0.1758,
+      "p_raw": 0.627188,
+      "rho_partial": -0.8552,
+      "p_partial": 0.001609
+    },
+    {
+      "key": "Nfix\u2192M_mean",
+      "gene": "Nfix",
+      "prop": "M_mean",
+      "rho_raw": 0.9636,
+      "p_raw": 7e-06,
+      "rho_partial": 0.85,
+      "p_partial": 0.001841
+    },
+    {
+      "key": "Scn7a\u2192M_mean_ww",
+      "gene": "Scn7a",
+      "prop": "M_mean_ww",
+      "rho_raw": -0.5515,
+      "p_raw": 0.098401,
+      "rho_partial": 0.85,
+      "p_partial": 0.001841
+    },
+    {
+      "key": "Scn7a\u2192M_mean_Glut",
+      "gene": "Scn7a",
+      "prop": "M_mean_Glut",
+      "rho_raw": -0.5515,
+      "p_raw": 0.098401,
+      "rho_partial": 0.85,
+      "p_partial": 0.001841
+    },
+    {
+      "key": "Grm3\u2192M_mean",
+      "gene": "Grm3",
+      "prop": "M_mean",
+      "rho_raw": 0.9515,
+      "p_raw": 2.3e-05,
+      "rho_partial": 0.8,
+      "p_partial": 0.005456
+    },
+    {
+      "key": "Scn7a\u2192M_mean",
+      "gene": "Scn7a",
+      "prop": "M_mean",
+      "rho_raw": -0.5636,
+      "p_raw": 0.089724,
+      "rho_partial": 0.8,
+      "p_partial": 0.005456
+    },
+    {
+      "key": "Nfix\u2192M_mean_Glut",
+      "gene": "Nfix",
+      "prop": "M_mean_Glut",
+      "rho_raw": 0.9273,
+      "p_raw": 0.000112,
+      "rho_partial": 0.7809,
+      "p_partial": 0.007666
+    },
+    {
+      "key": "Npas1\u2192M_mean_nw",
+      "gene": "Npas1",
+      "prop": "M_mean_nw",
+      "rho_raw": 0.8424,
+      "p_raw": 0.00222,
+      "rho_partial": 0.7759,
+      "p_partial": 0.008338
+    },
+    {
+      "key": "Tac2\u2192M_mean_nw",
+      "gene": "Tac2",
+      "prop": "M_mean_nw",
+      "rho_raw": 0.3455,
+      "p_raw": 0.328227,
+      "rho_partial": 0.7684,
+      "p_partial": 0.009419
+    },
+    {
+      "key": "Ccn4\u2192M_mean_nw",
+      "gene": "Ccn4",
+      "prop": "M_mean_nw",
+      "rho_raw": 0.8182,
+      "p_raw": 0.003815,
+      "rho_partial": 0.7636,
+      "p_partial": 0.010163
+    },
+    {
+      "key": "Nr4a2\u2192M_mean",
+      "gene": "Nr4a2",
+      "prop": "M_mean",
+      "rho_raw": 0.5758,
+      "p_raw": 0.081553,
+      "rho_partial": -0.75,
+      "p_partial": 0.012478
+    },
+    {
+      "key": "Pou3f1\u2192M_mean",
+      "gene": "Pou3f1",
+      "prop": "M_mean",
+      "rho_raw": -0.9394,
+      "p_raw": 5.5e-05,
+      "rho_partial": -0.75,
+      "p_partial": 0.012478
+    },
+    {
+      "key": "Foxo1\u2192M_mean_Glut",
+      "gene": "Foxo1",
+      "prop": "M_mean_Glut",
+      "rho_raw": -0.2242,
+      "p_raw": 0.533401,
+      "rho_partial": 0.733,
+      "p_partial": 0.015869
+    }
+  ],
+  "fdr_partial_sig": [],
+  "fdr_raw_sig": [
+    {
+      "key": "Bcl11b\u2192M_mean_GABA",
+      "gene": "Bcl11b",
+      "prop": "M_mean_GABA",
+      "rho_raw": -0.8788,
+      "p_corr": 0.022385
+    },
+    {
+      "key": "Cacng3\u2192M_mean_GABA",
+      "gene": "Cacng3",
+      "prop": "M_mean_GABA",
+      "rho_raw": -0.7939,
+      "p_corr": 0.047088
+    },
+    {
+      "key": "Ccn4\u2192M_mean",
+      "gene": "Ccn4",
+      "prop": "M_mean",
+      "rho_raw": 0.8788,
+      "p_corr": 0.022385
+    },
+    {
+      "key": "Ccn4\u2192M_mean_ww",
+      "gene": "Ccn4",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.8424,
+      "p_corr": 0.037569
+    },
+    {
+      "key": "Ccn4\u2192M_mean_nw",
+      "gene": "Ccn4",
+      "prop": "M_mean_nw",
+      "rho_raw": 0.8182,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Ccn4\u2192M_mean_Glut",
+      "gene": "Ccn4",
+      "prop": "M_mean_Glut",
+      "rho_raw": 0.8788,
+      "p_corr": 0.022385
+    },
+    {
+      "key": "Ccnd2\u2192M_mean_ww",
+      "gene": "Ccnd2",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.8182,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Chrm2\u2192M_mean_GABA",
+      "gene": "Chrm2",
+      "prop": "M_mean_GABA",
+      "rho_raw": 0.7939,
+      "p_corr": 0.047088
+    },
+    {
+      "key": "Chrm3\u2192M_mean_ww",
+      "gene": "Chrm3",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.7939,
+      "p_corr": 0.047088
+    },
+    {
+      "key": "Ckap2l\u2192M_mean_GABA",
+      "gene": "Ckap2l",
+      "prop": "M_mean_GABA",
+      "rho_raw": 0.8545,
+      "p_corr": 0.03274
+    },
+    {
+      "key": "Cnr1\u2192M_mean",
+      "gene": "Cnr1",
+      "prop": "M_mean",
+      "rho_raw": -0.8061,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Cnr1\u2192M_mean_ww",
+      "gene": "Cnr1",
+      "prop": "M_mean_ww",
+      "rho_raw": -0.8545,
+      "p_corr": 0.03274
+    },
+    {
+      "key": "Drd1\u2192M_mean_GABA",
+      "gene": "Drd1",
+      "prop": "M_mean_GABA",
+      "rho_raw": 0.8667,
+      "p_corr": 0.028698
+    },
+    {
+      "key": "Grik3\u2192M_mean",
+      "gene": "Grik3",
+      "prop": "M_mean",
+      "rho_raw": 0.8303,
+      "p_corr": 0.041729
+    },
+    {
+      "key": "Grik3\u2192M_mean_ww",
+      "gene": "Grik3",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.8545,
+      "p_corr": 0.03274
+    },
+    {
+      "key": "Grik3\u2192M_mean_Glut",
+      "gene": "Grik3",
+      "prop": "M_mean_Glut",
+      "rho_raw": 0.8061,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Grm3\u2192M_mean",
+      "gene": "Grm3",
+      "prop": "M_mean",
+      "rho_raw": 0.9515,
+      "p_corr": 0.00253
+    },
+    {
+      "key": "Grm3\u2192M_mean_ww",
+      "gene": "Grm3",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.9758,
+      "p_corr": 0.00022
+    },
+    {
+      "key": "Grm3\u2192M_mean_Glut",
+      "gene": "Grm3",
+      "prop": "M_mean_Glut",
+      "rho_raw": 0.9152,
+      "p_corr": 0.00748
+    },
+    {
+      "key": "Htr7\u2192M_mean",
+      "gene": "Htr7",
+      "prop": "M_mean",
+      "rho_raw": 0.9273,
+      "p_corr": 0.00704
+    },
+    {
+      "key": "Htr7\u2192M_mean_ww",
+      "gene": "Htr7",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.9152,
+      "p_corr": 0.00748
+    },
+    {
+      "key": "Htr7\u2192M_mean_Glut",
+      "gene": "Htr7",
+      "prop": "M_mean_Glut",
+      "rho_raw": 0.8909,
+      "p_corr": 0.018345
+    },
+    {
+      "key": "Kcng1\u2192M_mean",
+      "gene": "Kcng1",
+      "prop": "M_mean",
+      "rho_raw": -0.8061,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Kcng1\u2192M_mean_ww",
+      "gene": "Kcng1",
+      "prop": "M_mean_ww",
+      "rho_raw": -0.8182,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Kcng1\u2192M_mean_Glut",
+      "gene": "Kcng1",
+      "prop": "M_mean_Glut",
+      "rho_raw": -0.8182,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Kcnip1\u2192M_mean_GABA",
+      "gene": "Kcnip1",
+      "prop": "M_mean_GABA",
+      "rho_raw": 0.8667,
+      "p_corr": 0.028698
+    },
+    {
+      "key": "Kcnk9\u2192M_mean",
+      "gene": "Kcnk9",
+      "prop": "M_mean",
+      "rho_raw": 0.8182,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Kcnk9\u2192M_mean_ww",
+      "gene": "Kcnk9",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.8303,
+      "p_corr": 0.041729
+    },
+    {
+      "key": "Kcnk9\u2192M_mean_Glut",
+      "gene": "Kcnk9",
+      "prop": "M_mean_Glut",
+      "rho_raw": 0.8061,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Kcnk9\u2192M_mean_GABA",
+      "gene": "Kcnk9",
+      "prop": "M_mean_GABA",
+      "rho_raw": 0.8061,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Kcns3\u2192M_mean",
+      "gene": "Kcns3",
+      "prop": "M_mean",
+      "rho_raw": -0.8182,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Kcns3\u2192M_mean_ww",
+      "gene": "Kcns3",
+      "prop": "M_mean_ww",
+      "rho_raw": -0.8061,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Nfix\u2192M_mean",
+      "gene": "Nfix",
+      "prop": "M_mean",
+      "rho_raw": 0.9636,
+      "p_corr": 0.001027
+    },
+    {
+      "key": "Nfix\u2192M_mean_ww",
+      "gene": "Nfix",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.9758,
+      "p_corr": 0.00022
+    },
+    {
+      "key": "Nfix\u2192M_mean_Glut",
+      "gene": "Nfix",
+      "prop": "M_mean_Glut",
+      "rho_raw": 0.9273,
+      "p_corr": 0.00704
+    },
+    {
+      "key": "Npas1\u2192M_mean_nw",
+      "gene": "Npas1",
+      "prop": "M_mean_nw",
+      "rho_raw": 0.8424,
+      "p_corr": 0.037569
+    },
+    {
+      "key": "Npas1\u2192M_mean_Glut",
+      "gene": "Npas1",
+      "prop": "M_mean_Glut",
+      "rho_raw": 0.8061,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Npas1\u2192M_mean_GABA",
+      "gene": "Npas1",
+      "prop": "M_mean_GABA",
+      "rho_raw": 0.9152,
+      "p_corr": 0.00748
+    },
+    {
+      "key": "Oprd1\u2192M_mean_GABA",
+      "gene": "Oprd1",
+      "prop": "M_mean_GABA",
+      "rho_raw": -0.8182,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Oprk1\u2192M_mean_nw",
+      "gene": "Oprk1",
+      "prop": "M_mean_nw",
+      "rho_raw": 0.7939,
+      "p_corr": 0.047088
+    },
+    {
+      "key": "Otx2\u2192M_mean_ww",
+      "gene": "Otx2",
+      "prop": "M_mean_ww",
+      "rho_raw": -0.7939,
+      "p_corr": 0.047088
+    },
+    {
+      "key": "Pdyn\u2192M_mean",
+      "gene": "Pdyn",
+      "prop": "M_mean",
+      "rho_raw": -0.8182,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Pdyn\u2192M_mean_ww",
+      "gene": "Pdyn",
+      "prop": "M_mean_ww",
+      "rho_raw": -0.8061,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Pou3f1\u2192M_mean",
+      "gene": "Pou3f1",
+      "prop": "M_mean",
+      "rho_raw": -0.9394,
+      "p_corr": 0.00484
+    },
+    {
+      "key": "Pou3f1\u2192M_mean_ww",
+      "gene": "Pou3f1",
+      "prop": "M_mean_ww",
+      "rho_raw": -0.9152,
+      "p_corr": 0.00748
+    },
+    {
+      "key": "Pou3f1\u2192M_mean_Glut",
+      "gene": "Pou3f1",
+      "prop": "M_mean_Glut",
+      "rho_raw": -0.9152,
+      "p_corr": 0.00748
+    },
+    {
+      "key": "Rorb\u2192M_mean_nw",
+      "gene": "Rorb",
+      "prop": "M_mean_nw",
+      "rho_raw": -0.8061,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Rprm\u2192M_mean",
+      "gene": "Rprm",
+      "prop": "M_mean",
+      "rho_raw": 0.8545,
+      "p_corr": 0.03274
+    },
+    {
+      "key": "Rprm\u2192M_mean_ww",
+      "gene": "Rprm",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.8303,
+      "p_corr": 0.041729
+    },
+    {
+      "key": "Rprm\u2192M_mean_Glut",
+      "gene": "Rprm",
+      "prop": "M_mean_Glut",
+      "rho_raw": 0.8182,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Rprm\u2192M_mean_GABA",
+      "gene": "Rprm",
+      "prop": "M_mean_GABA",
+      "rho_raw": 0.8303,
+      "p_corr": 0.041729
+    },
+    {
+      "key": "Slc17a7\u2192M_mean",
+      "gene": "Slc17a7",
+      "prop": "M_mean",
+      "rho_raw": 0.8303,
+      "p_corr": 0.041729
+    },
+    {
+      "key": "Slc17a7\u2192M_mean_ww",
+      "gene": "Slc17a7",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.8424,
+      "p_corr": 0.037569
+    },
+    {
+      "key": "Slc17a7\u2192M_mean_Glut",
+      "gene": "Slc17a7",
+      "prop": "M_mean_Glut",
+      "rho_raw": 0.8061,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Sox5\u2192M_mean_ww",
+      "gene": "Sox5",
+      "prop": "M_mean_ww",
+      "rho_raw": 0.8061,
+      "p_corr": 0.041947
+    },
+    {
+      "key": "Trpc7\u2192M_mean_ww",
+      "gene": "Trpc7",
+      "prop": "M_mean_ww",
+      "rho_raw": -0.7939,
+      "p_corr": 0.047088
+    },
+    {
+      "key": "Trpc7\u2192M_mean_Glut",
+      "gene": "Trpc7",
+      "prop": "M_mean_Glut",
+      "rho_raw": -0.8424,
+      "p_corr": 0.037569
+    }
+  ],
+  "predictability_comparison": {
+    "burst_mean": {
+      "mean_abs_rho": 0.4193,
+      "max_abs_rho": 0.9273
+    },
+    "rate_mean": {
+      "mean_abs_rho": 0.3156,
+      "max_abs_rho": 0.8424
+    },
+    "nw_frac": {
+      "mean_abs_rho": 0.3683,
+      "max_abs_rho": 0.8788
+    },
+    "M_mean": {
+      "mean_abs_rho": 0.4909,
+      "max_abs_rho": 0.9636
+    }
+  },
+  "notes": "0/440 partial FDR-sig, 57/440 raw FDR-sig; CONFIRMED"
+}
