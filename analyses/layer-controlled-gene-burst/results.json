@@ -1,0 +1,406 @@
+{
+  "hypothesis_id": "H25",
+  "status": "CONFIRMED",
+  "n_h24_fdr_pairs": 11,
+  "n_survive_partial_p005": 11,
+  "n_direction_consistent": 11,
+  "partial_results": [
+    {
+      "gene": "Grm1",
+      "prop": "burst_mean",
+      "rho_raw": -0.8667,
+      "p_raw": 0.001174,
+      "rho_partial": -0.863,
+      "p_partial": 0.0013,
+      "df": 7,
+      "rho_l5": -1.0,
+      "p_l5": 0.0,
+      "rho_l6": -0.5,
+      "p_l6": 0.391002,
+      "direction_consistent": true,
+      "variance_removed": 0.0083
+    },
+    {
+      "gene": "Mcm6",
+      "prop": "burst_mean",
+      "rho_raw": -0.9273,
+      "p_raw": 0.000112,
+      "rho_partial": -0.9333,
+      "p_partial": 8e-05,
+      "df": 7,
+      "rho_l5": -1.0,
+      "p_l5": 0.0,
+      "rho_l6": -0.7,
+      "p_l6": 0.18812,
+      "direction_consistent": true,
+      "variance_removed": 0
+    },
+    {
+      "gene": "Nos1",
+      "prop": "burst_mean",
+      "rho_raw": -0.8788,
+      "p_raw": 0.000814,
+      "rho_partial": -0.875,
+      "p_partial": 0.000916,
+      "df": 7,
+      "rho_l5": -1.0,
+      "p_l5": 0.0,
+      "rho_l6": -0.7,
+      "p_l6": 0.18812,
+      "direction_consistent": true,
+      "variance_removed": 0.0086
+    },
+    {
+      "gene": "Piezo2",
+      "prop": "burst_mean",
+      "rho_raw": -0.9152,
+      "p_raw": 0.000204,
+      "rho_partial": -0.9159,
+      "p_partial": 0.000198,
+      "df": 7,
+      "rho_l5": -0.7,
+      "p_l5": 0.18812,
+      "rho_l6": -1.0,
+      "p_l6": 0.0,
+      "direction_consistent": true,
+      "variance_removed": 0
+    },
+    {
+      "gene": "Pvalb",
+      "prop": "burst_mean",
+      "rho_raw": 0.8667,
+      "p_raw": 0.001174,
+      "rho_partial": 0.863,
+      "p_partial": 0.0013,
+      "df": 7,
+      "rho_l5": 1.0,
+      "p_l5": 0.0,
+      "rho_l6": 0.7,
+      "p_l6": 0.18812,
+      "direction_consistent": true,
+      "variance_removed": 0.0083
+    },
+    {
+      "gene": "St18",
+      "prop": "nw_frac",
+      "rho_raw": 0.9273,
+      "p_raw": 0.000112,
+      "rho_partial": 0.8438,
+      "p_partial": 0.00215,
+      "df": 7,
+      "rho_l5": 0.7,
+      "p_l5": 0.18812,
+      "rho_l6": 0.9,
+      "p_l6": 0.037386,
+      "direction_consistent": true,
+      "variance_removed": 0.172
+    },
+    {
+      "gene": "Gad2",
+      "prop": "burst_mean_GABA",
+      "rho_raw": -0.7939,
+      "p_raw": 0.0061,
+      "rho_partial": -0.7611,
+      "p_partial": 0.010557,
+      "df": 7,
+      "rho_l5": -0.7,
+      "p_l5": 0.18812,
+      "rho_l6": -0.8,
+      "p_l6": 0.104088,
+      "direction_consistent": true,
+      "variance_removed": 0.081
+    },
+    {
+      "gene": "Kcnab3",
+      "prop": "burst_mean_Glut",
+      "rho_raw": 0.8667,
+      "p_raw": 0.001174,
+      "rho_partial": 0.863,
+      "p_partial": 0.0013,
+      "df": 7,
+      "rho_l5": 1.0,
+      "p_l5": 0.0,
+      "rho_l6": 0.6,
+      "p_l6": 0.284757,
+      "direction_consistent": true,
+      "variance_removed": 0.0083
+    },
+    {
+      "gene": "Mcm6",
+      "prop": "burst_mean_Glut",
+      "rho_raw": -0.903,
+      "p_raw": 0.000344,
+      "rho_partial": -0.9073,
+      "p_partial": 0.000288,
+      "df": 7,
+      "rho_l5": -1.0,
+      "p_l5": 0.0,
+      "rho_l6": -0.6,
+      "p_l6": 0.284757,
+      "direction_consistent": true,
+      "variance_removed": 0
+    },
+    {
+      "gene": "Pvalb",
+      "prop": "burst_mean_Glut",
+      "rho_raw": 0.8667,
+      "p_raw": 0.001174,
+      "rho_partial": 0.8664,
+      "p_partial": 0.001183,
+      "df": 7,
+      "rho_l5": 1.0,
+      "p_l5": 0.0,
+      "rho_l6": 0.6,
+      "p_l6": 0.284757,
+      "direction_consistent": true,
+      "variance_removed": 0.0007
+    },
+    {
+      "gene": "Scn4b",
+      "prop": "burst_mean_Glut",
+      "rho_raw": 0.8545,
+      "p_raw": 0.001637,
+      "rho_partial": 0.8504,
+      "p_partial": 0.001824,
+      "df": 7,
+      "rho_l5": 1.0,
+      "p_l5": 0.0,
+      "rho_l6": 0.6,
+      "p_l6": 0.284757,
+      "direction_consistent": true,
+      "variance_removed": 0.0098
+    }
+  ],
+  "n_raw_fdr": 4,
+  "n_partial_fdr": 15,
+  "n_total_tests": 440,
+  "layer_effect_on_ephys": {
+    "burst_mean": {
+      "r": -0.2009,
+      "p": 0.577894
+    },
+    "rate_mean": {
+      "r": 0.1976,
+      "p": 0.584321
+    },
+    "nw_frac": {
+      "r": 0.7061,
+      "p": 0.022472
+    }
+  },
+  "top_genes_layer_association": [
+    {
+      "gene": "Pou3f1",
+      "r": -0.9875,
+      "p": 0.0,
+      "R2": 0.9752
+    },
+    {
+      "gene": "Rprm",
+      "r": 0.97,
+      "p": 3e-06,
+      "R2": 0.9408
+    },
+    {
+      "gene": "Htr7",
+      "r": 0.9638,
+      "p": 7e-06,
+      "R2": 0.929
+    },
+    {
+      "gene": "Kcng1",
+      "r": -0.9598,
+      "p": 1.1e-05,
+      "R2": 0.9212
+    },
+    {
+      "gene": "Grik3",
+      "r": 0.9268,
+      "p": 0.000115,
+      "R2": 0.859
+    },
+    {
+      "gene": "Kcng2",
+      "r": -0.9229,
+      "p": 0.000141,
+      "R2": 0.8518
+    },
+    {
+      "gene": "Kcnk9",
+      "r": 0.9173,
+      "p": 0.000185,
+      "R2": 0.8414
+    },
+    {
+      "gene": "Cnr1",
+      "r": -0.9062,
+      "p": 0.000302,
+      "R2": 0.8212
+    },
+    {
+      "gene": "Drd3",
+      "r": -0.9057,
+      "p": 0.000309,
+      "R2": 0.8202
+    },
+    {
+      "gene": "Chrm3",
+      "r": 0.8943,
+      "p": 0.000479,
+      "R2": 0.7998
+    },
+    {
+      "gene": "Penk",
+      "r": 0.8942,
+      "p": 0.000481,
+      "R2": 0.7997
+    },
+    {
+      "gene": "Ccn4",
+      "r": 0.8913,
+      "p": 0.000535,
+      "R2": 0.7944
+    },
+    {
+      "gene": "Kcns3",
+      "r": -0.8869,
+      "p": 0.000624,
+      "R2": 0.7865
+    },
+    {
+      "gene": "Pdyn",
+      "r": -0.8833,
+      "p": 0.000704,
+      "R2": 0.7802
+    },
+    {
+      "gene": "Nfib",
+      "r": 0.8784,
+      "p": 0.000824,
+      "R2": 0.7716
+    }
+  ],
+  "partial_fdr_sig_list": [
+    {
+      "gene": "Adra1a",
+      "prop": "burst_mean",
+      "rho_partial": -0.9021,
+      "p_partial": 0.000356,
+      "p_corr": 0.022405,
+      "rho_raw": -0.4788
+    },
+    {
+      "gene": "Cnr1",
+      "prop": "rate_mean",
+      "rho_partial": -0.9406,
+      "p_partial": 5.1e-05,
+      "p_corr": 0.017612,
+      "rho_raw": -0.5515
+    },
+    {
+      "gene": "Grin2c",
+      "prop": "burst_mean",
+      "rho_partial": 0.9021,
+      "p_partial": 0.000356,
+      "p_corr": 0.022405,
+      "rho_raw": 0.7333
+    },
+    {
+      "gene": "Grin2c",
+      "prop": "burst_mean_Glut",
+      "rho_partial": 0.8835,
+      "p_partial": 0.0007,
+      "p_corr": 0.038485,
+      "rho_raw": 0.8545
+    },
+    {
+      "gene": "Grm1",
+      "prop": "burst_mean",
+      "rho_partial": -0.863,
+      "p_partial": 0.0013,
+      "p_corr": 0.04087,
+      "rho_raw": -0.8667
+    },
+    {
+      "gene": "Htr2a",
+      "prop": "burst_mean_Glut",
+      "rho_partial": 0.8558,
+      "p_partial": 0.001582,
+      "p_corr": 0.046397,
+      "rho_raw": 0.8303
+    },
+    {
+      "gene": "Kcnab3",
+      "prop": "burst_mean_Glut",
+      "rho_partial": 0.863,
+      "p_partial": 0.0013,
+      "p_corr": 0.04087,
+      "rho_raw": 0.8667
+    },
+    {
+      "gene": "Kcnk9",
+      "prop": "nw_frac",
+      "rho_partial": -0.9021,
+      "p_partial": 0.000356,
+      "p_corr": 0.022405,
+      "rho_raw": 0.3333
+    },
+    {
+      "gene": "Mcm6",
+      "prop": "burst_mean",
+      "rho_partial": -0.9333,
+      "p_partial": 8e-05,
+      "p_corr": 0.017612,
+      "rho_raw": -0.9273
+    },
+    {
+      "gene": "Mcm6",
+      "prop": "burst_mean_Glut",
+      "rho_partial": -0.9073,
+      "p_partial": 0.000288,
+      "p_corr": 0.022405,
+      "rho_raw": -0.903
+    },
+    {
+      "gene": "Nos1",
+      "prop": "burst_mean",
+      "rho_partial": -0.875,
+      "p_partial": 0.000916,
+      "p_corr": 0.040308,
+      "rho_raw": -0.8788
+    },
+    {
+      "gene": "Pcp4l1",
+      "prop": "burst_mean_Glut",
+      "rho_partial": 0.8757,
+      "p_partial": 0.000896,
+      "p_corr": 0.040308,
+      "rho_raw": 0.7939
+    },
+    {
+      "gene": "Piezo2",
+      "prop": "burst_mean",
+      "rho_partial": -0.9159,
+      "p_partial": 0.000198,
+      "p_corr": 0.022405,
+      "rho_raw": -0.9152
+    },
+    {
+      "gene": "Pvalb",
+      "prop": "burst_mean",
+      "rho_partial": 0.863,
+      "p_partial": 0.0013,
+      "p_corr": 0.04087,
+      "rho_raw": 0.8667
+    },
+    {
+      "gene": "Pvalb",
+      "prop": "burst_mean_Glut",
+      "rho_partial": 0.8664,
+      "p_partial": 0.001183,
+      "p_corr": 0.04087,
+      "rho_raw": 0.8667
+    }
+  ],
+  "notes": "11/11 H24 FDR pairs survive p<0.05 after controlling for layer; 11/11 direction-consistent across layers; 15/440 FDR-sig in full partial screen"
+}
