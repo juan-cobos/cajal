@@ -1,0 +1,111 @@
+{
+  "hypothesis_id": "H10",
+  "status": "REFUTED",
+  "rho_npv_gaba": 0.1515151515151515,
+  "p_npv_gaba": 0.6760651759978539,
+  "rho_gaba_burst": -0.16363636363636364,
+  "p_gaba_burst": 0.6514773427962428,
+  "rho_npv_burst": -0.406060606060606,
+  "p_npv_burst": 0.24428229408662647,
+  "rho_npv_rate": -0.12727272727272726,
+  "p_npv_rate": 0.7260570147627894,
+  "rho_gaba_rate": -0.33333333333333326,
+  "p_gaba_rate": 0.3465935070873343,
+  "p_perm_npv_gaba": 0.3373,
+  "p_perm_gaba_burst": 0.6745,
+  "n_regions": 10,
+  "chain_supported": false,
+  "region_details": [
+    {
+      "region": "ILA5",
+      "striatal_NPV": 0.858,
+      "gaba_fraction": 0.1752,
+      "mean_burst": -0.08,
+      "mean_rate": 0.2294,
+      "n_merfish": 1799,
+      "n_neurons": 684
+    },
+    {
+      "region": "ILA6a",
+      "striatal_NPV": 0.7313,
+      "gaba_fraction": 0.1466,
+      "mean_burst": -0.0827,
+      "mean_rate": 0.3788,
+      "n_merfish": 2260,
+      "n_neurons": 766
+    },
+    {
+      "region": "ORBl5",
+      "striatal_NPV": 0.6589,
+      "gaba_fraction": 0.1551,
+      "mean_burst": 0.0149,
+      "mean_rate": 0.4117,
+      "n_merfish": 5273,
+      "n_neurons": 510
+    },
+    {
+      "region": "ORBl6a",
+      "striatal_NPV": 0.4854,
+      "gaba_fraction": 0.1184,
+      "mean_burst": -0.0127,
+      "mean_rate": 0.2804,
+      "n_merfish": 4560,
+      "n_neurons": 172
+    },
+    {
+      "region": "ORBm5",
+      "striatal_NPV": 0.7711,
+      "gaba_fraction": 0.1408,
+      "mean_burst": -0.037,
+      "mean_rate": 0.3759,
+      "n_merfish": 2450,
+      "n_neurons": 609
+    },
+    {
+      "region": "ORBm6a",
+      "striatal_NPV": 0.5987,
+      "gaba_fraction": 0.1244,
+      "mean_burst": -0.0503,
+      "mean_rate": 0.3867,
+      "n_merfish": 3328,
+      "n_neurons": 637
+    },
+    {
+      "region": "ORBvl5",
+      "striatal_NPV": 0.9489,
+      "gaba_fraction": 0.1541,
+      "mean_burst": -0.0258,
+      "mean_rate": 0.3817,
+      "n_merfish": 3303,
+      "n_neurons": 910
+    },
+    {
+      "region": "ORBvl6a",
+      "striatal_NPV": 0.8648,
+      "gaba_fraction": 0.1014,
+      "mean_burst": -0.0604,
+      "mean_rate": 0.4171,
+      "n_merfish": 2420,
+      "n_neurons": 474
+    },
+    {
+      "region": "PL5",
+      "striatal_NPV": 1.3203,
+      "gaba_fraction": 0.1737,
+      "mean_burst": -0.0705,
+      "mean_rate": 0.3157,
+      "n_merfish": 3872,
+      "n_neurons": 1873
+    },
+    {
+      "region": "PL6a",
+      "striatal_NPV": 1.2938,
+      "gaba_fraction": 0.1068,
+      "mean_burst": -0.052,
+      "mean_rate": 0.3624,
+      "n_merfish": 6159,
+      "n_neurons": 1246
+    }
+  ],
+  "notes": "NPV\u2192GABA: rho=0.152 p=0.676; GABA\u2192burst: rho=-0.164 p=0.651; REFUTED"
+}
