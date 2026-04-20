@@ -1,0 +1,513 @@
+{
+  "hypothesis_id": "H27",
+  "status": "CONFIRMED",
+  "n_genes": 88,
+  "n_pcs_all": 9,
+  "n_pcs_glut": 9,
+  "n_pcs_gaba": 9,
+  "n_total_pc_tests": 81,
+  "n_raw_fdr": 1,
+  "n_partial_fdr": 1,
+  "pca_explained_variance": {
+    "PC1": 0.3751,
+    "PC2": 0.3174,
+    "PC3": 0.1147,
+    "PC4": 0.07,
+    "PC5": 0.0561,
+    "PC6": 0.0307,
+    "PC7": 0.0142,
+    "PC8": 0.0116,
+    "PC9": 0.0102
+  },
+  "layer_pc_correlations": [
+    {
+      "PC": 1,
+      "r": -0.977,
+      "p": 1e-06,
+      "R2": 0.9545
+    },
+    {
+      "PC": 2,
+      "r": -0.133,
+      "p": 0.71416,
+      "R2": 0.0177
+    },
+    {
+      "PC": 3,
+      "r": -0.072,
+      "p": 0.843354,
+      "R2": 0.0052
+    },
+    {
+      "PC": 4,
+      "r": -0.1,
+      "p": 0.783458,
+      "R2": 0.01
+    },
+    {
+      "PC": 5,
+      "r": 0.0322,
+      "p": 0.92955,
+      "R2": 0.001
+    },
+    {
+      "PC": 6,
+      "r": -0.0436,
+      "p": 0.904797,
+      "R2": 0.0019
+    },
+    {
+      "PC": 7,
+      "r": 0.0259,
+      "p": 0.943373,
+      "R2": 0.0007
+    },
+    {
+      "PC": 8,
+      "r": -0.0947,
+      "p": 0.794771,
+      "R2": 0.009
+    },
+    {
+      "PC": 9,
+      "r": 0.0104,
+      "p": 0.977227,
+      "R2": 0.0001
+    }
+  ],
+  "pc1_top_loadings": [
+    {
+      "gene": "Pou3f1",
+      "loading": 0.1708
+    },
+    {
+      "gene": "Kcng1",
+      "loading": 0.169
+    },
+    {
+      "gene": "Rprm",
+      "loading": -0.1673
+    },
+    {
+      "gene": "Htr7",
+      "loading": -0.1655
+    },
+    {
+      "gene": "Grm3",
+      "loading": -0.1636
+    },
+    {
+      "gene": "Pdyn",
+      "loading": 0.1632
+    },
+    {
+      "gene": "Grik3",
+      "loading": -0.1618
+    },
+    {
+      "gene": "Cnr1",
+      "loading": 0.161
+    },
+    {
+      "gene": "Kcns3",
+      "loading": 0.1602
+    },
+    {
+      "gene": "Kcnk9",
+      "loading": -0.1602
+    }
+  ],
+  "pc2_top_loadings": [
+    {
+      "gene": "Pou3f3",
+      "loading": 0.185
+    },
+    {
+      "gene": "Mcm6",
+      "loading": -0.1847
+    },
+    {
+      "gene": "Scn4b",
+      "loading": 0.1822
+    },
+    {
+      "gene": "Pvalb",
+      "loading": 0.1807
+    },
+    {
+      "gene": "Nos1",
+      "loading": -0.1795
+    },
+    {
+      "gene": "Nrn1",
+      "loading": 0.1752
+    },
+    {
+      "gene": "Htr2a",
+      "loading": 0.1746
+    },
+    {
+      "gene": "Kcnab3",
+      "loading": 0.1687
+    },
+    {
+      "gene": "Kcnip1",
+      "loading": -0.1647
+    },
+    {
+      "gene": "Pcp4l1",
+      "loading": 0.1647
+    }
+  ],
+  "all_pc_ephys_partial": {
+    "PC2\u2192burst_mean": {
+      "rho": 0.9,
+      "p": 0.000387
+    },
+    "PC2(Glut)\u2192burst_mean": {
+      "rho": -0.8504,
+      "p": 0.001824
+    },
+    "PC1(GABA)\u2192burst_mean": {
+      "rho": -0.7222,
+      "p": 0.018339
+    },
+    "PC1(GABA)\u2192rate_mean": {
+      "rho": -0.7222,
+      "p": 0.018339
+    },
+    "PC2(GABA)\u2192burst_mean": {
+      "rho": 0.7177,
+      "p": 0.019424
+    },
+    "PC5(GABA)\u2192nw_frac": {
+      "rho": 0.6741,
+      "p": 0.032536
+    },
+    "PC3\u2192nw_frac": {
+      "rho": 0.6151,
+      "p": 0.058392
+    },
+    "PC2(GABA)\u2192rate_mean": {
+      "rho": 0.6108,
+      "p": 0.060656
+    },
+    "PC1(Glut)\u2192burst_mean": {
+      "rho": -0.6,
+      "p": 0.066688
+    },
+    "PC2(Glut)\u2192rate_mean": {
+      "rho": -0.5838,
+      "p": 0.076391
+    },
+    "PC2\u2192rate_mean": {
+      "rho": 0.575,
+      "p": 0.082049
+    },
+    "PC1\u2192rate_mean": {
+      "rho": -0.55,
+      "p": 0.099522
+    },
+    "PC5(Glut)\u2192rate_mean": {
+      "rho": -0.5419,
+      "p": 0.105626
+    },
+    "PC4(GABA)\u2192nw_frac": {
+      "rho": -0.5227,
+      "p": 0.121145
+    },
+    "PC5\u2192rate_mean": {
+      "rho": -0.5173,
+      "p": 0.1257
+    },
+    "PC9(Glut)\u2192nw_frac": {
+      "rho": 0.5049,
+      "p": 0.136653
+    },
+    "PC8\u2192nw_frac": {
+      "rho": -0.5038,
+      "p": 0.137654
+    },
+    "PC3(Glut)\u2192nw_frac": {
+      "rho": 0.4609,
+      "p": 0.180036
+    },
+    "PC6(Glut)\u2192burst_mean": {
+      "rho": -0.4456,
+      "p": 0.196865
+    },
+    "PC9\u2192rate_mean": {
+      "rho": -0.4332,
+      "p": 0.211092
+    },
+    "PC1\u2192burst_mean": {
+      "rho": -0.425,
+      "p": 0.220821
+    },
+    "PC9(GABA)\u2192nw_frac": {
+      "rho": -0.415,
+      "p": 0.233078
+    },
+    "PC7(GABA)\u2192rate_mean": {
+      "rho": -0.4084,
+      "p": 0.241267
+    },
+    "PC4(Glut)\u2192nw_frac": {
+      "rho": 0.3804,
+      "p": 0.27814
+    },
+    "PC6\u2192burst_mean": {
+      "rho": -0.3695,
+      "p": 0.29333
+    },
+    "PC5(GABA)\u2192burst_mean": {
+      "rho": 0.3681,
+      "p": 0.295355
+    },
+    "PC7(Glut)\u2192nw_frac": {
+      "rho": -0.3627,
+      "p": 0.302962
+    },
+    "PC3(GABA)\u2192nw_frac": {
+      "rho": 0.3385,
+      "p": 0.3387
+    },
+    "PC8(GABA)\u2192nw_frac": {
+      "rho": 0.3359,
+      "p": 0.342736
+    },
+    "PC4(GABA)\u2192burst_mean": {
+      "rho": -0.3202,
+      "p": 0.367016
+    },
+    "PC5\u2192nw_frac": {
+      "rho": 0.3129,
+      "p": 0.378726
+    },
+    "PC7\u2192burst_mean": {
+      "rho": -0.3079,
+      "p": 0.386746
+    },
+    "PC5(GABA)\u2192rate_mean": {
+      "rho": -0.2792,
+      "p": 0.434639
+    },
+    "PC4(GABA)\u2192rate_mean": {
+      "rho": -0.271,
+      "p": 0.448899
+    },
+    "PC6(GABA)\u2192nw_frac": {
+      "rho": -0.2596,
+      "p": 0.468959
+    },
+    "PC3\u2192burst_mean": {
+      "rho": 0.2586,
+      "p": 0.470562
+    },
+    "PC3\u2192rate_mean": {
+      "rho": 0.2463,
+      "p": 0.492672
+    },
+    "PC8(GABA)\u2192burst_mean": {
+      "rho": -0.2352,
+      "p": 0.513103
+    },
+    "PC6\u2192rate_mean": {
+      "rho": 0.234,
+      "p": 0.515215
+    },
+    "PC6(GABA)\u2192burst_mean": {
+      "rho": -0.234,
+      "p": 0.515215
+    },
+    "PC1(Glut)\u2192rate_mean": {
+      "rho": -0.225,
+      "p": 0.531982
+    },
+    "PC2\u2192nw_frac": {
+      "rho": 0.2165,
+      "p": 0.547975
+    },
+    "PC3(Glut)\u2192rate_mean": {
+      "rho": 0.2104,
+      "p": 0.559577
+    },
+    "PC9(Glut)\u2192burst_mean": {
+      "rho": 0.2094,
+      "p": 0.561533
+    },
+    "PC6\u2192nw_frac": {
+      "rho": -0.2062,
+      "p": 0.567595
+    },
+    "PC8(GABA)\u2192rate_mean": {
+      "rho": 0.198,
+      "p": 0.583402
+    },
+    "PC8(Glut)\u2192nw_frac": {
+      "rho": -0.1869,
+      "p": 0.60523
+    },
+    "PC8\u2192rate_mean": {
+      "rho": 0.1857,
+      "p": 0.607595
+    },
+    "PC9(Glut)\u2192rate_mean": {
+      "rho": -0.1847,
+      "p": 0.609375
+    },
+    "PC1(Glut)\u2192nw_frac": {
+      "rho": -0.1804,
+      "p": 0.617925
+    },
+    "PC4\u2192nw_frac": {
+      "rho": -0.1751,
+      "p": 0.628555
+    },
+    "PC8\u2192burst_mean": {
+      "rho": -0.1733,
+      "p": 0.632136
+    },
+    "PC8(Glut)\u2192rate_mean": {
+      "rho": -0.165,
+      "p": 0.648742
+    },
+    "PC3(Glut)\u2192burst_mean": {
+      "rho": 0.1609,
+      "p": 0.657005
+    },
+    "PC9(GABA)\u2192rate_mean": {
+      "rho": 0.15,
+      "p": 0.679159
+    },
+    "PC2(GABA)\u2192nw_frac": {
+      "rho": 0.1499,
+      "p": 0.679392
+    },
+    "PC7(GABA)\u2192burst_mean": {
+      "rho": 0.1485,
+      "p": 0.68218
+    },
+    "PC4(Glut)\u2192rate_mean": {
+      "rho": -0.1478,
+      "p": 0.683659
+    },
+    "PC1\u2192nw_frac": {
+      "rho": 0.1443,
+      "p": 0.690758
+    },
+    "PC2(Glut)\u2192nw_frac": {
+      "rho": -0.1246,
+      "p": 0.731693
+    },
+    "PC5(Glut)\u2192burst_mean": {
+      "rho": -0.1232,
+      "p": 0.734624
+    },
+    "PC9\u2192nw_frac": {
+      "rho": 0.1108,
+      "p": 0.760664
+    },
+    "PC6(Glut)\u2192nw_frac": {
+      "rho": -0.1036,
+      "p": 0.775763
+    },
+    "PC8(Glut)\u2192burst_mean": {
+      "rho": 0.1015,
+      "p": 0.780169
+    },
+    "PC6(Glut)\u2192rate_mean": {
+      "rho": -0.099,
+      "p": 0.785516
+    },
+    "PC6(GABA)\u2192rate_mean": {
+      "rho": -0.0985,
+      "p": 0.78654
+    },
+    "PC9(GABA)\u2192burst_mean": {
+      "rho": 0.0875,
+      "p": 0.810052
+    },
+    "PC7(Glut)\u2192rate_mean": {
+      "rho": -0.0762,
+      "p": 0.834382
+    },
+    "PC7(GABA)\u2192nw_frac": {
+      "rho": 0.0679,
+      "p": 0.852184
+    },
+    "PC1(GABA)\u2192nw_frac": {
+      "rho": 0.0616,
+      "p": 0.86577
+    },
+    "PC7\u2192nw_frac": {
+      "rho": 0.0604,
+      "p": 0.868262
+    },
+    "PC5(Glut)\u2192nw_frac": {
+      "rho": 0.0604,
+      "p": 0.868262
+    },
+    "PC7(Glut)\u2192burst_mean": {
+      "rho": 0.0508,
+      "p": 0.889232
+    },
+    "PC4\u2192burst_mean": {
+      "rho": -0.0495,
+      "p": 0.891968
+    },
+    "PC4\u2192rate_mean": {
+      "rho": -0.0371,
+      "p": 0.918889
+    },
+    "PC5\u2192burst_mean": {
+      "rho": -0.0369,
+      "p": 0.919282
+    },
+    "PC3(GABA)\u2192burst_mean": {
+      "rho": -0.0267,
+      "p": 0.941744
+    },
+    "PC3(GABA)\u2192rate_mean": {
+      "rho": -0.0267,
+      "p": 0.941744
+    },
+    "PC9\u2192burst_mean": {
+      "rho": -0.0124,
+      "p": 0.97293
+    },
+    "PC7\u2192rate_mean": {
+      "rho": 0.0,
+      "p": 1.0
+    },
+    "PC4(Glut)\u2192burst_mean": {
+      "rho": 0.0,
+      "p": 1.0
+    }
+  },
+  "fdr_partial_sig": [
+    {
+      "key": "PC2\u2192burst_mean",
+      "rho": 0.9,
+      "p": 0.000387,
+      "p_corr": 0.031347
+    }
+  ],
+  "fdr_raw_sig": [
+    {
+      "key": "PC2\u2192burst_mean",
+      "rho": 0.903,
+      "p": 0.000344,
+      "p_corr": 0.027864
+    }
+  ],
+  "comparison": {
+    "top_gene_burst_rho": 0.9273,
+    "top_pc_burst_rho": 0.903,
+    "top_pc_burst_rho_partial": 0.9,
+    "individual_gene_tests": 440,
+    "pc_tests": 81,
+    "burden_reduction": 5.4
+  },
+  "notes": "1/81 partial FDR-sig; 1/81 raw FDR-sig; CONFIRMED"
+}

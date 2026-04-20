@@ -1,0 +1,7 @@
+anndata
+matplotlib
+numpy
+polars
+scikit-learn
+scipy
+statsmodels
