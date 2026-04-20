@@ -1,0 +1,68 @@
+{
+  "hypothesis_id": "H07",
+  "status": "REFUTED",
+  "spearman_rho": -0.5000000000000001,
+  "spearman_p": 0.2070312499999999,
+  "permutation_p": 0.1086,
+  "pearson_r": -0.5531537786098629,
+  "n_regions": 8,
+  "region_details": [
+    {
+      "region": "ACAd",
+      "entropy": 3.9342,
+      "mean_rate": 0.2912,
+      "n_merfish_cells": 25179,
+      "n_neurons": 1740
+    },
+    {
+      "region": "ACAv",
+      "entropy": 3.9365,
+      "mean_rate": 0.2121,
+      "n_merfish_cells": 26851,
+      "n_neurons": 802
+    },
+    {
+      "region": "FRP",
+      "entropy": 3.72,
+      "mean_rate": 0.2771,
+      "n_merfish_cells": 2562,
+      "n_neurons": 154
+    },
+    {
+      "region": "ILA",
+      "entropy": 3.9439,
+      "mean_rate": 0.1857,
+      "n_merfish_cells": 7018,
+      "n_neurons": 1855
+    },
+    {
+      "region": "ORBl",
+      "entropy": 3.7418,
+      "mean_rate": 0.3026,
+      "n_merfish_cells": 21088,
+      "n_neurons": 1196
+    },
+    {
+      "region": "ORBm",
+      "entropy": 3.9404,
+      "mean_rate": 0.3021,
+      "n_merfish_cells": 11577,
+      "n_neurons": 1464
+    },
+    {
+      "region": "ORBvl",
+      "entropy": 3.7443,
+      "mean_rate": 0.3206,
+      "n_merfish_cells": 14901,
+      "n_neurons": 2108
+    },
+    {
+      "region": "PL",
+      "entropy": 3.9097,
+      "mean_rate": 0.2508,
+      "n_merfish_cells": 18020,
+      "n_neurons": 3761
+    }
+  ],
+  "notes": "rho=-0.500, p=0.2070; REFUTED"
+}
