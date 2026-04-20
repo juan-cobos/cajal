@@ -1,0 +1,121 @@
+{
+  "hypothesis_id": "H29",
+  "status": "CONFIRMED",
+  "primary_mediation": {
+    "conn_pc": 1,
+    "gene_pc": 2,
+    "a_path": 0.9273,
+    "a_p": 0.000112,
+    "a_partial": 0.9361,
+    "a_partial_p": 6.8e-05,
+    "b_path": 0.8153,
+    "b_p": 0.004052,
+    "c_total": 0.7576,
+    "c_p": 0.011143,
+    "c_total_partial": 0.7636,
+    "c_total_partial_p": 0.010152,
+    "c_direct": -0.514,
+    "c_direct_p": 0.128559,
+    "indirect": 0.756,
+    "indirect_ci": [
+      NaN,
+      NaN
+    ],
+    "mediation_p": 0.018098
+  },
+  "all_mediation_paths": [
+    {
+      "conn_pc": 1,
+      "gene_pc": 2,
+      "a_path": 0.9273,
+      "a_p": 0.000112,
+      "b_path": 0.8153,
+      "b_p": 0.004052,
+      "c_total": 0.7576,
+      "c_p": 0.011143,
+      "c_direct": -0.514,
+      "c_direct_p": 0.128559,
+      "indirect": 0.756
+    },
+    {
+      "conn_pc": 5,
+      "gene_pc": 1,
+      "a_path": 0.7455,
+      "a_p": 0.01333,
+      "b_path": -0.3989,
+      "b_p": 0.253508,
+      "c_total": 0.0182,
+      "c_p": 0.96024,
+      "c_direct": -0.0285,
+      "c_direct_p": 0.937816,
+      "indirect": -0.2974
+    },
+    {
+      "conn_pc": 2,
+      "gene_pc": 5,
+      "a_path": -0.6242,
+      "a_p": 0.053718,
+      "b_path": -0.3334,
+      "b_p": 0.346494,
+      "c_total": -0.2242,
+      "c_p": 0.533401,
+      "c_direct": -0.4348,
+      "c_direct_p": 0.209215,
+      "indirect": 0.2081
+    },
+    {
+      "conn_pc": 4,
+      "gene_pc": 4,
+      "a_path": -0.6848,
+      "a_p": 0.028883,
+      "b_path": -0.2931,
+      "b_p": 0.411195,
+      "c_total": -0.2242,
+      "c_p": 0.533401,
+      "c_direct": -0.3374,
+      "c_direct_p": 0.340418,
+      "indirect": 0.2007
+    },
+    {
+      "conn_pc": 5,
+      "gene_pc": 4,
+      "a_path": -0.6121,
+      "a_p": 0.059972,
+      "b_path": -0.2935,
+      "b_p": 0.410423,
+      "c_total": 0.0182,
+      "c_p": 0.96024,
+      "c_direct": -0.3287,
+      "c_direct_p": 0.353687,
+      "indirect": 0.1797
+    },
+    {
+      "conn_pc": 3,
+      "gene_pc": 5,
+      "a_path": 0.5758,
+      "a_p": 0.081553,
+      "b_path": 0.1618,
+      "b_p": 0.655103,
+      "c_total": -0.2848,
+      "c_p": 0.425038,
+      "c_direct": -0.3211,
+      "c_direct_p": 0.365622,
+      "indirect": 0.0932
+    }
+  ],
+  "conn_pca_variance": [
+    0.4152,
+    0.2285,
+    0.1746,
+    0.1287,
+    0.0293
+  ],
+  "gene_pca_variance": [
+    0.3751,
+    0.3174,
+    0.1147,
+    0.07,
+    0.0561
+  ],
+  "notes": "Primary: ConnPC1\u2192GenePC2\u2192Burst indirect=0.756 p=0.0181; CONFIRMED"
+}
