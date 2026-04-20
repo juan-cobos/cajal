@@ -1,0 +1,9 @@
+{
+  "hypothesis_id": "H01",
+  "status": "CONFIRMED",
+  "statistic": 2747574435268.0,
+  "p_value": 4.4893468429023265e-09,
+  "effect_size": 15.198511629546715,
+  "n_cells": 10262,
+  "notes": "Within-group distance < between-group distance: CONFIRMED"
+}

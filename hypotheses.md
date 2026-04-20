@@ -1,0 +1,3 @@
+| ID | Hypothesis | Modalities | Datasets | Branch | Analyses | Status | Key result | Notes / refs |
+|----|-----------|------------|----------|--------|----------|--------|------------|--------------|
+| H01 | PFC neurons with the same electrophysiological subtype (wide-width vs narrow-width) are spatially clustered closer together than neurons with different subtypes within the same cortical region | electrophysiology, spatial-transcriptomics | neural_activity | pfc-electro-spatial | Mann-Whitney U, permutation | CONFIRMED | p < 0.001, effect size = 15.2 μm (within < between) | — |
